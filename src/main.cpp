@@ -3,14 +3,12 @@
 
 // -------------------------- Configuration -------------------------- //
 
-
 #define BATTERY_ADC_PIN 			35
 #define BATTERY_ADC_RESOLUTION 		4095
 #define BATTERY_ADC_REF_VOLTAGE 	1.1
 #define BATTERY_ESP32_REF_VOLTAGE	3.3
 #define BATTERY_NUM_READINGS 		32
 #define BATTERY_READING_DELAY_MS	20
-
 
 // ------------------------------------------------------------------- //
 
@@ -28,12 +26,10 @@ class ModuleCallbacks: public SailtrackModuleCallbacks {
 	}
 };
 
-
 void setup() {
-	stm.begin("imutest", IPAddress(192, 168, 42, 115), new ModuleCallbacks());
+	stm.begin("sailtrack-flight-control", IPAddress(192, 168, 42, 115), new ModuleCallbacks());
 }
 
 void loop() {
 
 }
-
