@@ -8,7 +8,7 @@ data = np.loadtxt(csv_file, delimiter=";", skiprows=1, usecols=(0, 1))
 degrees, distances = data[:, 0], data[:, 1]
 
 # Try polynomial fits of increasing degree
-max_degree = 50
+max_degree = 20
 errors = []
 
 for d in range(1, max_degree + 1):
@@ -26,9 +26,9 @@ print(f"Best polynomial degree: {best_degree}")
 # Get the coefficients of the best polynomial fit
 best_coeffs = np.polyfit(degrees, distances, best_degree)
 
-# Format coefficients for C++ code
-formatted_coeffs = ", ".join([f"{coeff}" for coeff in best_coeffs])
-print(f"\nC++ array format:\nfloat coeffs[] = {{ {formatted_coeffs} }};")
+# Format coefficients for C++ code with 'f' suffix
+formatted_coeffs = ", ".join([f"{coeff}f" for coeff in best_coeffs])
+print(f"\nC++ vector format:\nvector<float> vec = {{ {formatted_coeffs} }};")
 
 # Plot the data and the best polynomial fit
 best_poly_func = np.poly1d(best_coeffs)
