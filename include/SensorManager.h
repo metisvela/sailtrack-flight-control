@@ -13,6 +13,8 @@ public:
     void begin();
     uint16_t readRawAngle(bool &success); // Return angle + success flag
     uint16_t movingAverageRawAngle(uint8_t n, uint16_t delay_ms);
+    float readAngle(bool &success); // Return angle + success flag
+    float movingAverageAngle(uint8_t n, uint16_t delay_ms);
 private:
     uint16_t _lastRawAngle = 0;
 };

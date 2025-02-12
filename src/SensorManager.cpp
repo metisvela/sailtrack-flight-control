@@ -18,7 +18,7 @@ uint16_t SensorManager::readRawAngle(bool &success) {
       _lastRawAngle = (highByte << 8) | lowByte;
       success = true;
   }
-  
+
   return _lastRawAngle; // Return cached value on failure
 }
 
@@ -35,3 +35,14 @@ uint16_t SensorManager::movingAverageRawAngle(uint8_t n, uint16_t delay_ms) {
 
   return (uint16_t)(sum / n);
 }
+
+float SensorManager::readAngle(bool &success){
+  uint16_t rawAngle = readRawAngle(success);
+  return map(rawAngle,0,4095,0,360);
+}
+
+float SensorManager::movingAverageAngle(uint8_t n, uint16_t delay_ms){
+  uint16_t rawAngle = movingAverageRawAngle(n, delay_ms);
+  return map(rawAngle,0,4095,0,360);
+}
+
