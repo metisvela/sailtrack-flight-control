@@ -1,35 +1,45 @@
-#include <Arduino.h>
-#include <SailtrackModule.h>
+#include <stdio.h>
+#include <inttypes.h>
+#include "sdkconfig.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_chip_info.h"
+#include "esp_flash.h"
+#include "esp_system.h"
 
-// -------------------------- Configuration -------------------------- //
+void app_main() {
+    printf("Hello world!\n");
 
-#define BATTERY_ADC_PIN 			35
-#define BATTERY_ADC_RESOLUTION 		4095
-#define BATTERY_ADC_REF_VOLTAGE 	1.1
-#define BATTERY_ESP32_REF_VOLTAGE	3.3
-#define BATTERY_NUM_READINGS 		32
-#define BATTERY_READING_DELAY_MS	20
+    /* Print chip information */
+    esp_chip_info_t chip_info;
+    uint32_t flash_size;
+    esp_chip_info(&chip_info);
+    printf("This is %s chip with %d CPU core(s), %s%s%s%s, ",
+           CONFIG_IDF_TARGET,
+           chip_info.cores,
+           (chip_info.features & CHIP_FEATURE_WIFI_BGN) ? "WiFi/" : "",
+           (chip_info.features & CHIP_FEATURE_BT) ? "BT" : "",
+           (chip_info.features & CHIP_FEATURE_BLE) ? "BLE" : "",
+           (chip_info.features & CHIP_FEATURE_IEEE802154) ? ", 802.15.4 (Zigbee/Thread)" : "");
 
-// ------------------------------------------------------------------- //
+    unsigned major_rev = chip_info.revision / 100;
+    unsigned minor_rev = chip_info.revision % 100;
+    printf("silicon revision v%d.%d, ", major_rev, minor_rev);
+    if (esp_flash_get_size(NULL, &flash_size) != ESP_OK) {
+        printf("Get flash size failed");
+        return;
+    }
 
-SailtrackModule stm;
+    printf("%" PRIu32 "MB %s flash\n", flash_size / (uint32_t)(1024 * 1024),
+           (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
 
-class ModuleCallbacks: public SailtrackModuleCallbacks {
-	void onStatusPublish(JsonObject status) {
-		JsonObject battery = status.createNestedObject("battery");
-		float avg = 0;
-		for (int i = 0; i < BATTERY_NUM_READINGS; i++) {
-			avg += analogRead(BATTERY_ADC_PIN) / BATTERY_NUM_READINGS;
-			delay(BATTERY_READING_DELAY_MS);
-		}
-		battery["voltage"] = 2 * avg / BATTERY_ADC_RESOLUTION * BATTERY_ESP32_REF_VOLTAGE * BATTERY_ADC_REF_VOLTAGE;
-	}
-};
+    printf("Minimum free heap size: %" PRIu32 " bytes\n", esp_get_minimum_free_heap_size());
 
-void setup() {
-	stm.begin("sailtrack-flight-control", IPAddress(192, 168, 42, 115), new ModuleCallbacks());
-}
-
-void loop() {
-
+    for (int i = 10; i >= 0; i--) {
+        printf("Restarting in %d seconds...\n", i);
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
+    }
+    printf("Restarting now.\n");
+    fflush(stdout);
+    esp_restart();
 }
