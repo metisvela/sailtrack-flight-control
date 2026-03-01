@@ -55,6 +55,7 @@
 
 # Generated files
 .idea/**/contentModel.xml
+sdkconfig*
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
@@ -224,3 +225,4 @@ $RECYCLE.BIN/
 ### VisualStudioCode Patch ###
 # Ignore .vscode folder
 .vscode
+sdkconfig.ttgo-t7-v14-mini32
