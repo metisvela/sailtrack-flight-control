@@ -226,3 +226,7 @@ $RECYCLE.BIN/
 # Ignore .vscode folder
 .vscode
 sdkconfig.ttgo-t7-v14-mini32
+
+### User defined
+# Ignore CMake build folder
+build
