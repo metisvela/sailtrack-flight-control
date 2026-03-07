@@ -3099,6 +3099,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 76.2) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317958ff-cc30-47f6-ab9c-960e0e4f60c5")
+	)
+	(wire
+		(pts
 			(xy 121.92 43.18) (xy 124.46 43.18)
 		)
 		(stroke
@@ -3146,6 +3156,16 @@
 			(type default)
 		)
 		(uuid "42a1ac88-aff7-48de-8815-e4c6fa024e19")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4303fcc5-b89d-412a-9b82-8e578df8687d")
 	)
 	(wire
 		(pts
@@ -4028,6 +4048,16 @@
 		(uuid "47fff630-1ea4-491b-9ccb-43f5ccd8e1b2")
 	)
 	(label "SIN+"
+		(at 76.2 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55d67988-641f-45b6-ac07-9ec61aaca4e0")
+	)
+	(label "SIN+"
 		(at 60.96 80.01 0)
 		(effects
 			(font
@@ -4106,6 +4136,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ce7f42b-1f68-461a-9c7d-c5bc5baa7cae")
+	)
+	(label "SIN-"
+		(at 76.2 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d436ed8-0f90-4e58-bdc8-4fb901bdcbc2")
 	)
 	(label "RESET"
 		(at 49.53 40.64 0)
@@ -5863,7 +5903,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64535d47-3c49-469f-be48-7be3e27d0892")
 		(property "Reference" "U5"
 			(at 95.25 68.58 0)
