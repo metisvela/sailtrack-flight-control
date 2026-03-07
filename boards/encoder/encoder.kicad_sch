@@ -430,6 +430,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "INA826_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA826"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "INA826AIDRGR:SON50P300X300X80-9N200X120"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TEXAS INSTRUMENTS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "INA826_1_0_0"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "REF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "INA826_1_1_0"
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "RGA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "RGB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_CAN_LIN:TCAN1044V"
 			(pin_names
 				(offset 0.254)
@@ -1573,7 +1833,7 @@
 					)
 				)
 			)
-			(property "Value" "~"
+			(property "Value" "CT310"
 				(at -0.635 11.43 0)
 				(effects
 					(font
@@ -2829,7 +3089,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 33.02) (xy 172.72 35.56)
+			(xy 58.42 74.93) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 38.1) (xy 148.59 38.1)
+			(xy 29.21 80.01) (xy 34.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 43.18) (xy 146.05 43.18)
+			(xy 34.29 85.09) (xy 31.75 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 40.64) (xy 170.18 40.64)
+			(xy 60.96 82.55) (xy 55.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 40.64) (xy 148.59 40.64)
+			(xy 29.21 82.55) (xy 34.29 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 43.18) (xy 172.72 43.18)
+			(xy 55.88 85.09) (xy 58.42 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 35.56) (xy 172.72 35.56)
+			(xy 55.88 77.47) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 43.18) (xy 146.05 45.72)
+			(xy 31.75 85.09) (xy 31.75 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3116,6 +3376,16 @@
 			(type default)
 		)
 		(uuid "80367e97-59d7-454e-a96c-48b8d22c1622")
+	)
+	(wire
+		(pts
+			(xy 198.12 115.57) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8467c4a0-2a66-4898-8734-52ae61920de7")
 	)
 	(wire
 		(pts
@@ -3229,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 38.1) (xy 170.18 38.1)
+			(xy 60.96 80.01) (xy 55.88 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 35.56) (xy 146.05 35.56)
+			(xy 34.29 77.47) (xy 31.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3509,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 87.63) (xy 203.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02530d3-7441-4a54-99a4-eeaf0b87dedb")
+	)
+	(wire
+		(pts
 			(xy 24.13 172.72) (xy 24.13 175.26)
 		)
 		(stroke
@@ -3589,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 43.18) (xy 172.72 45.72)
+			(xy 58.42 85.09) (xy 58.42 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3939,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 33.02) (xy 146.05 35.56)
+			(xy 31.75 74.93) (xy 31.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3748,7 +4028,7 @@
 		(uuid "47fff630-1ea4-491b-9ccb-43f5ccd8e1b2")
 	)
 	(label "SIN+"
-		(at 175.26 38.1 0)
+		(at 60.96 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3868,7 +4148,7 @@
 		(uuid "a875cbd3-80f9-4ff0-884a-d47e4ba4e1e9")
 	)
 	(label "COS+"
-		(at 143.51 38.1 180)
+		(at 29.21 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,7 +4208,7 @@
 		(uuid "d4359655-89e0-4819-8c74-9a98e3d6b876")
 	)
 	(label "SIN-"
-		(at 175.26 40.64 0)
+		(at 60.96 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3938,7 +4218,7 @@
 		(uuid "d9e219fd-241f-4fd4-aead-de399d533525")
 	)
 	(label "COS-"
-		(at 143.51 40.64 180)
+		(at 29.21 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4409,7 +4689,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 172.72 33.02 0)
+		(at 58.42 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4418,7 +4698,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bbf0641-17ab-4b92-b091-c6c36d130c61")
 		(property "Reference" "#PWR027"
-			(at 172.72 36.83 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4707,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 172.72 27.94 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 33.02 0)
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 33.02 0)
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 172.72 33.02 0)
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,6 +5855,127 @@
 		)
 	)
 	(symbol
+		(lib_name "INA826_1")
+		(lib_id "Amplifier_Instrumentation:INA826")
+		(at 95.25 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64535d47-3c49-469f-be48-7be3e27d0892")
+		(property "Reference" "U5"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA826"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "INA826AIDRGR:SON50P300X300X80-9N200X120"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TEXAS INSTRUMENTS"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "86b504a2-4cef-4454-b583-105acd3bc912")
+		)
+		(pin "2"
+			(uuid "58a9f6ab-0fb4-4aed-a178-6c05b0bd4049")
+		)
+		(pin "1"
+			(uuid "4d30c5b8-2416-4a9e-ae9a-2dde58889779")
+		)
+		(pin "6"
+			(uuid "df48a488-8eac-48ed-b527-ea2ccc2d42d0")
+		)
+		(pin "4"
+			(uuid "ceacbdb6-aa5e-4972-b65d-60aeda9688c2")
+		)
+		(pin "7"
+			(uuid "8647896b-4c29-47f0-ae52-13b13829979b")
+		)
+		(pin "8"
+			(uuid "5a0cbf56-8490-4d98-a57d-95611aebd775")
+		)
+		(pin "3"
+			(uuid "19d22cab-47ad-4fc7-b399-15f7c2c4893e")
+		)
+		(pin "5"
+			(uuid "71bdf986-b611-457a-b196-0232ba902d05")
+		)
+		(instances
+			(project ""
+				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 170.18 0)
 		(unit 1)
@@ -5844,7 +6245,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 146.05 45.72 0)
+		(at 31.75 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5853,7 +6254,7 @@
 		(fields_autoplaced yes)
 		(uuid "80326eab-f2ef-4d0c-a1c9-f43c7517c65e")
 		(property "Reference" "#PWR024"
-			(at 146.05 52.07 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +6263,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 146.05 50.8 0)
+			(at 31.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +6271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 45.72 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 45.72 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +6289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 146.05 45.72 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6928,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 172.72 45.72 0)
+		(at 58.42 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6536,7 +6937,7 @@
 		(fields_autoplaced yes)
 		(uuid "b30dfd11-7ad6-493e-9f02-f7f8c7b2d807")
 		(property "Reference" "#PWR025"
-			(at 172.72 52.07 0)
+			(at 58.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6946,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 172.72 50.8 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 45.72 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 45.72 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 172.72 45.72 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,24 +7262,23 @@
 	)
 	(symbol
 		(lib_id "Sensor_Magnetic:CT310")
-		(at 160.02 39.37 0)
+		(at 45.72 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf8d55d7-b378-42ac-a473-6c13a69550af")
 		(property "Reference" "U4"
-			(at 159.385 25.4 0)
+			(at 45.466 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 159.385 27.94 0)
+		(property "Value" "CT310"
+			(at 45.466 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +7286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 39.37 0)
+			(at 45.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +7295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 39.37 0)
+			(at 45.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +7304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 39.37 0)
+			(at 45.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,6 +7564,127 @@
 		)
 	)
 	(symbol
+		(lib_name "INA826_1")
+		(lib_id "Amplifier_Instrumentation:INA826")
+		(at 146.05 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5f9e1f-554a-47df-b149-3f2446c3107b")
+		(property "Reference" "U6"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA826"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "INA826AIDRGR:SON50P300X300X80-9N200X120"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TEXAS INSTRUMENTS"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "478f3e74-e234-434f-a888-5caed1235f22")
+		)
+		(pin "2"
+			(uuid "7eb7d159-ec18-4939-8f72-6146917daf1e")
+		)
+		(pin "1"
+			(uuid "9a13d70c-8eb3-44b2-aa38-d934aa5d4c31")
+		)
+		(pin "6"
+			(uuid "e22cbbb0-b7d0-4fec-815a-f3373f3a00ae")
+		)
+		(pin "4"
+			(uuid "7087baf3-135e-40d4-9552-26ca36128795")
+		)
+		(pin "7"
+			(uuid "4462f32c-92f2-44a2-855d-7cf9c1a49570")
+		)
+		(pin "8"
+			(uuid "0a3673b6-cc0d-4695-be22-3bcb1f05b8c6")
+		)
+		(pin "3"
+			(uuid "9b70763f-f213-482c-a808-91042f8b1691")
+		)
+		(pin "5"
+			(uuid "956e2cd9-c749-4eb3-acc7-1c6641cd63d5")
+		)
+		(instances
+			(project "encoder"
+				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 170.18 0)
 		(unit 1)
@@ -7301,7 +7822,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 146.05 33.02 0)
+		(at 31.75 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7310,7 +7831,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8dbfce1-ea61-4bc9-af3f-c94d85662efa")
 		(property "Reference" "#PWR026"
-			(at 146.05 36.83 0)
+			(at 31.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7840,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 146.05 27.94 0)
+			(at 31.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 33.02 0)
+			(at 31.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 33.02 0)
+			(at 31.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 146.05 33.02 0)
+			(at 31.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
