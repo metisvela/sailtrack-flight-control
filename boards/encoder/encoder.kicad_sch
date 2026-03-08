@@ -4658,7 +4658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200k"
 			(at 54.61 173.9899 0)
 			(effects
 				(font
@@ -4728,7 +4728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 157.48 182.8799 0)
 			(effects
 				(font
@@ -5151,7 +5151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "120p"
 			(at 64.77 173.9899 0)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 135.89 182.8799 0)
 			(effects
 				(font
@@ -5810,7 +5810,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "1u"
 			(at 46.99 165.1 90)
 			(effects
 				(font
@@ -5837,6 +5837,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "L"
+			(at 46.99 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
 			(at 46.99 167.64 0)
 			(effects
 				(font
@@ -6407,7 +6425,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500"
 			(at 251.46 133.3499 0)
 			(effects
 				(font
@@ -6609,7 +6627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 177.8 133.3499 0)
 			(effects
 				(font
@@ -6745,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500"
 			(at 265.43 133.3499 0)
 			(effects
 				(font
@@ -7013,7 +7031,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500"
 			(at 234.95 133.3499 0)
 			(effects
 				(font
@@ -7219,7 +7237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "20n"
 			(at 266.7 146.0499 0)
 			(effects
 				(font
@@ -7553,7 +7571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 168.91 182.8799 0)
 			(effects
 				(font
@@ -7689,7 +7707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 146.05 182.8799 0)
 			(effects
 				(font
@@ -7758,7 +7776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "470n"
 			(at 222.25 128.2699 0)
 			(effects
 				(font
@@ -8320,7 +8338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 54.61 184.1499 0)
 			(effects
 				(font
@@ -8522,7 +8540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500"
 			(at 209.55 144.7799 0)
 			(effects
 				(font
@@ -8657,7 +8675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500"
 			(at 198.12 144.7799 0)
 			(effects
 				(font
@@ -8935,7 +8953,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 220.98 151.1299 0)
 			(effects
 				(font
@@ -9146,7 +9164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 187.96 133.3499 0)
 			(effects
 				(font
@@ -9490,7 +9508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 125.73 182.8799 0)
 			(effects
 				(font
