@@ -3981,6 +3981,28 @@
 		)
 		(uuid "ffefc944-f9c1-4f0d-ad84-9d1845b04366")
 	)
+	(hierarchical_label "VREF-"
+		(shape output)
+		(at 213.36 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cad6963-aa17-4fdb-8902-49408358194c")
+	)
+	(hierarchical_label "VBIAS"
+		(shape output)
+		(at 157.48 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4706ab4f-2c26-4d00-966d-790b41971fa7")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 270.51 87.63 0)
@@ -4004,7 +4026,7 @@
 		(uuid "4d83c53e-5d98-4a7e-9df1-86f32da194ad")
 	)
 	(hierarchical_label "VREF+"
-		(shape input)
+		(shape output)
 		(at 213.36 31.75 0)
 		(effects
 			(font
@@ -4012,21 +4034,10 @@
 			)
 			(justify left)
 		)
-		(uuid "a89e16da-f16e-4da8-bca8-5a4821c87433")
-	)
-	(hierarchical_label "COS_IN"
-		(shape input)
-		(at 210.82 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b60d067a-3386-48f4-9e21-da62fc371d04")
+		(uuid "78fbb993-b1e7-4c6a-98a7-be42fded14be")
 	)
 	(hierarchical_label "SIN_IN"
-		(shape input)
+		(shape output)
 		(at 195.58 92.71 0)
 		(effects
 			(font
@@ -4034,29 +4045,18 @@
 			)
 			(justify left)
 		)
-		(uuid "b626390c-ad68-4097-810e-9ce30c85ee12")
+		(uuid "d4f03858-9a3b-427b-a984-905da48a0f4f")
 	)
-	(hierarchical_label "VBIAS"
-		(shape input)
-		(at 157.48 92.71 0)
+	(hierarchical_label "COS_IN"
+		(shape output)
+		(at 210.82 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "dd1a4203-8acb-401d-acc5-bf4ff07e2834")
-	)
-	(hierarchical_label "VREF-"
-		(shape input)
-		(at 213.36 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f08c345a-d191-48b5-85e8-63db9ba8edc3")
+		(uuid "efffdc4c-ca9b-4b4b-8814-7ab315e5464e")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
