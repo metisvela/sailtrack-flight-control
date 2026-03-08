@@ -4670,7 +4670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "455k"
 			(at 54.61 173.9899 0)
 			(effects
 				(font
@@ -4740,7 +4740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "~"
 			(at 157.48 182.8799 0)
 			(effects
 				(font
@@ -5365,7 +5365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "~"
 			(at 135.89 182.8799 0)
 			(effects
 				(font
@@ -6437,7 +6437,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "47k"
 			(at 251.46 133.3499 0)
 			(effects
 				(font
@@ -6639,7 +6639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "45"
 			(at 177.8 133.3499 0)
 			(effects
 				(font
@@ -6775,7 +6775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "499k"
 			(at 265.43 133.3499 0)
 			(effects
 				(font
@@ -7043,7 +7043,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "47k"
 			(at 234.95 133.3499 0)
 			(effects
 				(font
@@ -7583,7 +7583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "~"
 			(at 168.91 182.8799 0)
 			(effects
 				(font
@@ -7719,7 +7719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "22p"
 			(at 146.05 182.8799 0)
 			(effects
 				(font
@@ -8552,7 +8552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "~"
 			(at 209.55 144.7799 0)
 			(effects
 				(font
@@ -8687,7 +8687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "~"
 			(at 198.12 144.7799 0)
 			(effects
 				(font
@@ -9176,7 +9176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "45"
 			(at 187.96 133.3499 0)
 			(effects
 				(font
@@ -9520,7 +9520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 125.73 182.8799 0)
 			(effects
 				(font
