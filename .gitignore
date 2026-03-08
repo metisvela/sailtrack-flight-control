@@ -231,7 +231,8 @@ sdkconfig.ttgo-t7-v14-mini32
 # Ignore CMake build folder
 build
 
-# KiCad backups and lock
+# KiCad files
 boards/**/*-backups
 boards/**/*.lck
 boards/**/#*#
+boards/**/fp-info-cache
