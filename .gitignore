@@ -234,3 +234,4 @@ build
 # KiCad backups and lock
 boards/**/*-backups
 boards/**/*.lck
+boards/**/#*#
