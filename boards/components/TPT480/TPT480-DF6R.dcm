@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPT480-DF6R
+D 1/1 Transceiver Full-Duplex  RS422, RS485 8-DFN (3x3)
+K
+F https://static.3peak.com/res/doc/ds/Datasheet_TPT480-TPT482.pdf
+$ENDCMP
+#
+#End Doc Library
