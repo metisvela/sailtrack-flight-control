@@ -822,32 +822,31 @@
 			(embedded_fonts no)
 		)
 		(symbol "Reference_Voltage:TL431DBZ"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 2.54 0)
+			(property "Reference" "U7"
+				(at 1.27 -1.778 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "TL431DBZ"
-				(at 0 -2.54 0)
+			(property "Value" "AZ431-A"
+				(at -1.27 -1.778 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 				(at 0 -4.826 0)
 				(effects
 					(font
@@ -961,7 +960,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -979,7 +978,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -994,8 +993,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
-				(at -0.635 13.97 0)
+			(property "Reference" "U3"
+				(at -0.254 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1003,7 +1002,7 @@
 				)
 			)
 			(property "Value" "CT310"
-				(at -0.635 11.43 0)
+				(at -0.254 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1116,6 +1115,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3267,6 +3284,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 50.8) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98912ae7-9e5a-4142-95df-dbb0695eb1a5")
+	)
+	(wire
+		(pts
 			(xy 114.3 101.6) (xy 114.3 95.25)
 		)
 		(stroke
@@ -4281,7 +4308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.902 88.9 90)
 			(effects
 				(font
@@ -4429,7 +4456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 61.2648 142.24 0)
 			(effects
 				(font
@@ -4472,6 +4499,72 @@
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 45.72 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3b9515-9319-4b20-b320-6e17828c6262")
+		(property "Reference" "#PWR092"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "700a34f6-f220-4105-8ba4-f8cb2aebdfb3")
+		)
+		(instances
+			(project "encoder"
+				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 32.7152 149.86 0)
 			(effects
 				(font
@@ -4652,7 +4745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 149.86 0)
 			(effects
 				(font
@@ -4872,7 +4965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.498 91.44 90)
 			(effects
 				(font
@@ -5236,7 +5329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.458 99.06 90)
 			(effects
 				(font
@@ -5629,7 +5722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 149.86 0)
 			(effects
 				(font
@@ -5703,7 +5796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 108.458 90)
 			(effects
 				(font
@@ -5779,7 +5872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.498 101.6 90)
 			(effects
 				(font
@@ -5926,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INA826AIDRGR:SON50P300X300X80-9N200X120"
+		(property "Footprint" "Package_SON:SON50P300X300X80-9N200X120"
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -6052,7 +6145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 99.822 90)
 			(effects
 				(font
@@ -6200,7 +6293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.3252 49.53 0)
 			(effects
 				(font
@@ -6502,7 +6595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.8348 142.24 0)
 			(effects
 				(font
@@ -6576,7 +6669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.89 94.488 90)
 			(effects
 				(font
@@ -6724,7 +6817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.582 35.56 90)
 			(effects
 				(font
@@ -7026,7 +7119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.492 40.64 90)
 			(effects
 				(font
@@ -7174,7 +7267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.832 40.64 90)
 			(effects
 				(font
@@ -7394,7 +7487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 92.71 90)
 			(effects
 				(font
@@ -7749,7 +7842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.6mm"
 			(at 45.72 40.64 0)
 			(effects
 				(font
@@ -7799,6 +7892,9 @@
 		)
 		(pin "1"
 			(uuid "57f4190a-1bf4-443a-a998-47c6251786f8")
+		)
+		(pin "9"
+			(uuid "2d955227-3ba2-4f6f-a960-8ee63fe1ce01")
 		)
 		(instances
 			(project "analog"
@@ -8168,7 +8264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.5652 49.53 0)
 			(effects
 				(font
@@ -8459,7 +8555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INA826AIDRGR:SON50P300X300X80-9N200X120"
+		(property "Footprint" "Package_SON:SON50P300X300X80-9N200X120"
 			(at 162.56 41.91 0)
 			(effects
 				(font
@@ -8779,7 +8875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 88.138 90)
 			(effects
 				(font
@@ -8855,7 +8951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.822 35.56 90)
 			(effects
 				(font
@@ -8930,7 +9026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.5652 149.86 0)
 			(effects
 				(font
