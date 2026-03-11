@@ -1363,16 +1363,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.35 0)
+			(property "Reference" "SW4"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DPST"
-				(at 0 -5.08 0)
+			(property "Value" "204_211ST"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1555,7 +1555,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1573,7 +1573,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1609,7 +1609,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6091,7 +6091,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPST"
+		(property "Value" "204_211ST"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6099,7 +6099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "metis-vela:SW4_204-211ST_CTS"
 			(at 97.79 132.08 0)
 			(effects
 				(font

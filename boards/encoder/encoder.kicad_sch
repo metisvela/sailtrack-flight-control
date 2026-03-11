@@ -4842,7 +4842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "metis-vela:SW_DS04-254-1-01BK-SMT"
 			(at 43.18 130.81 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "metis-vela:LED_0606_1615Metric"
 			(at 87.63 131.572 0)
 			(effects
 				(font
@@ -6795,7 +6795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "metis-vela:SW_TS04-66-65-BK-260-SMT"
 			(at 71.12 130.81 0)
 			(effects
 				(font
@@ -7271,7 +7271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -7549,7 +7549,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "metis-vela:SW_DS04-254-1-01BK-SMT"
 			(at 26.67 130.81 0)
 			(effects
 				(font
@@ -8292,7 +8292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 132.08 35.56 0)
 			(effects
 				(font
