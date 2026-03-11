@@ -235,4 +235,4 @@ build
 boards/**/*-backups
 boards/**/*.lck
 boards/**/#*#
-boards/**/fp-info-cache
+boards/**/fp-*
