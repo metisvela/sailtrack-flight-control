@@ -5408,7 +5408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RHB0032D-IPC_A"
+		(property "Footprint" "metis-vela:RHB0032D-IPC_A"
 			(at 207.01 35.56 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO8N_4X5X1P27_STM"
+		(property "Footprint" "metis-vela:SO8N_4X5X1P27_STM"
 			(at 71.12 170.18 0)
 			(effects
 				(font

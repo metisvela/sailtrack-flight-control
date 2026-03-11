@@ -3987,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON65P300X300X80-9N-D"
+		(property "Footprint" "metis-vela:SON65P300X300X80-9N-D"
 			(at 109.22 127.94 0)
 			(effects
 				(font
@@ -5050,7 +5050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-THIN-8_DDF_TEX"
+		(property "Footprint" "metis-vela:SOT-23-THIN-8_DDF_TEX"
 			(at 33.02 34.29 0)
 			(effects
 				(font

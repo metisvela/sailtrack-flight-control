@@ -5947,7 +5947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:SON50P300X300X80-9N200X120"
+		(property "Footprint" "metis-vela:SON50P300X300X80-9N200X120"
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -8291,7 +8291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:SON50P300X300X80-9N200X120"
+		(property "Footprint" "metis-vela:SON50P300X300X80-9N200X120"
 			(at 162.56 41.91 0)
 			(effects
 				(font
