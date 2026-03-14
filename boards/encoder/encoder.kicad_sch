@@ -1623,6 +1623,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_EEPROM:M24C08"
 			(pin_names
 				(offset 0.254)
@@ -2679,20 +2762,20 @@
 		(uuid "02ccf42c-e77d-4feb-87a7-f40fb1086989")
 	)
 	(no_connect
-		(at 207.01 104.14)
-		(uuid "5ac69f70-e1fb-4e35-bfec-441f6546cd93")
-	)
-	(no_connect
-		(at 207.01 111.76)
-		(uuid "9c313804-944a-417c-ab96-e664cad87f20")
-	)
-	(no_connect
 		(at 207.01 66.04)
 		(uuid "a9fb4ff9-f1b4-4fd8-abc4-fc6e37a76e80")
 	)
 	(no_connect
+		(at 207.01 60.96)
+		(uuid "aa47621d-57fe-4dbc-9de3-688b67b1e782")
+	)
+	(no_connect
 		(at 207.01 78.74)
 		(uuid "d3e81d74-4fc7-4a30-b4c9-4be093decfdf")
+	)
+	(no_connect
+		(at 207.01 111.76)
+		(uuid "f18d90df-80ca-4e05-8d8a-bfd14ec22980")
 	)
 	(wire
 		(pts
@@ -3196,6 +3279,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 109.22) (xy 207.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b644a8b-2a79-454c-98ee-2a2dc7a64b57")
+	)
+	(wire
+		(pts
 			(xy 86.36 72.39) (xy 91.44 72.39)
 		)
 		(stroke
@@ -3296,16 +3389,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 109.22) (xy 207.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d080d03-e3ca-4ea5-9cd3-d3b75ebacbbc")
-	)
-	(wire
-		(pts
 			(xy 102.87 175.26) (xy 102.87 180.34)
 		)
 		(stroke
@@ -3376,6 +3459,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 104.14) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e826eff-755a-4882-8584-9b1f95a633cc")
+	)
+	(wire
+		(pts
 			(xy 201.93 114.3) (xy 207.01 114.3)
 		)
 		(stroke
@@ -3403,16 +3496,6 @@
 			(type default)
 		)
 		(uuid "9133f90e-6c85-4351-bbe7-383603efda7d")
-	)
-	(wire
-		(pts
-			(xy 201.93 60.96) (xy 207.01 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91348efb-5c45-4c79-93a1-5d3847720f42")
 	)
 	(wire
 		(pts
@@ -4465,14 +4548,14 @@
 		(uuid "dd111d1c-8575-45e0-b56b-09abb0edf6ec")
 	)
 	(label "VDDA_EN"
-		(at 201.93 60.96 180)
+		(at 201.93 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e5544190-5977-4099-be8a-984e091c4264")
+		(uuid "e7c55da0-ab62-4b7c-8f43-a078ea3c3c0a")
 	)
 	(label "RS485_TX"
 		(at 121.92 82.55 0)
@@ -4483,6 +4566,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea2da13e-b24e-4d8f-be7b-f0c606f5c598")
+	)
+	(label "COS_IN"
+		(at 201.93 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea622a91-3a6f-47fc-8390-3a782a7c0bf8")
 	)
 	(label "I2C_SDA"
 		(at 201.93 55.88 180)
@@ -4503,16 +4596,6 @@
 			(justify right bottom)
 		)
 		(uuid "ef04f201-1526-4189-9eb6-4f858adfe018")
-	)
-	(label "COS_IN"
-		(at 201.93 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef5327d4-0d2c-4187-b894-15d6f0206555")
 	)
 	(label "LED2_OUT"
 		(at 82.55 143.51 180)
@@ -7178,6 +7261,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe7b353-dfd5-46bc-a43e-ceb87f400b3a")
+		(property "Reference" "H3"
+			(at 218.44 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 218.44 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "encoder"
+				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 57.15 111.76 0)
 		(unit 1)
@@ -7993,6 +8140,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d71cde8b-e3a8-4495-b3a8-3d39573c0012")
+		(property "Reference" "H4"
+			(at 218.44 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 218.44 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "encoder"
+				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 43.18 0)
 		(unit 1)
@@ -8476,6 +8687,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2abf257-ccaf-4060-8630-5bfb77060d16")
+		(property "Reference" "H2"
+			(at 199.39 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "encoder"
+				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 43.18 111.76 0)
 		(unit 1)
@@ -8536,6 +8811,70 @@
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc667c16-9b06-4c55-b04e-b442f047709f")
+		(property "Reference" "H1"
+			(at 199.39 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f"
+					(reference "H1")
 					(unit 1)
 				)
 			)
