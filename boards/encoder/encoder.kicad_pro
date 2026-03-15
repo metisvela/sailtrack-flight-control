@@ -490,16 +490,30 @@
       {
         "name": "APWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3
       },
       {
-        "name": "VBIAS",
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25
+      },
+      {
+        "name": "VBIAS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25
+      },
+      {
+        "name": "VREF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3
       }
     ],
     "meta": {
@@ -511,6 +525,22 @@
       {
         "netclass": "VBIAS",
         "pattern": "/VBIAS"
+      },
+      {
+        "netclass": "VREF",
+        "pattern": "/VREF+"
+      },
+      {
+        "netclass": "APWR",
+        "pattern": "GNDA"
+      },
+      {
+        "netclass": "APWR",
+        "pattern": "VDDA"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/*_SW"
       }
     ]
   },
