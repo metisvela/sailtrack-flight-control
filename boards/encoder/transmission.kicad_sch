@@ -3018,7 +3018,7 @@
 		)
 		(uuid "496c18d4-46f0-40e7-8394-ded408318802")
 	)
-	(label "RS485_Z"
+	(label "RS485_2+"
 		(at 152.4 138.43 180)
 		(effects
 			(font
@@ -3028,7 +3028,7 @@
 		)
 		(uuid "5b8ba7ea-543b-4527-843e-72b1fc3c7fdf")
 	)
-	(label "RS485_Y"
+	(label "RS485_2-"
 		(at 152.4 140.97 180)
 		(effects
 			(font
@@ -3038,7 +3038,7 @@
 		)
 		(uuid "5e5cfb7e-2bfe-4464-91dc-b610ac2f5b89")
 	)
-	(label "RS485_A"
+	(label "RS485_1+"
 		(at 152.4 133.35 180)
 		(effects
 			(font
@@ -3168,7 +3168,7 @@
 		)
 		(uuid "c21108f6-2ebb-45c7-8d41-7854c8ce6624")
 	)
-	(label "RS485_B"
+	(label "RS485_1-"
 		(at 152.4 135.89 180)
 		(effects
 			(font
@@ -4128,7 +4128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 162.56 135.89 0)
 			(effects
 				(font
