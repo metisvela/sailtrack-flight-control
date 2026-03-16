@@ -5487,7 +5487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "metis-vela:RHB0032D-IPC_A"
+		(property "Footprint" "Package_DFN_QFN:Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
 			(at 207.01 35.56 0)
 			(effects
 				(font

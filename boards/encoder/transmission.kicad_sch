@@ -2095,12 +2095,6 @@
 		(uuid "a2cbf42b-0ad7-446a-a2b0-71abde8bb7ec")
 	)
 	(junction
-		(at 96.52 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a89e57d0-5aad-46c2-b7bd-074a0c7dd181")
-	)
-	(junction
 		(at 36.83 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2111,12 +2105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef7e51fe-1bcc-42b9-87c1-718e49ff8ed6")
-	)
-	(junction
-		(at 96.52 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f766dd31-553c-4fd8-a85c-97c2e4756ec4")
 	)
 	(wire
 		(pts
@@ -2450,16 +2438,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 78.74) (xy 99.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f386e37-67ac-4947-a2e5-fa36cb747162")
-	)
-	(wire
-		(pts
 			(xy 69.85 39.37) (xy 74.93 39.37)
 		)
 		(stroke
@@ -2567,16 +2545,6 @@
 			(type default)
 		)
 		(uuid "81458fb2-f741-4201-a3f6-175fd745d882")
-	)
-	(wire
-		(pts
-			(xy 96.52 99.06) (xy 99.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c130a2-91eb-4f9a-b7cb-c11fd3eb8369")
 	)
 	(wire
 		(pts
@@ -3008,17 +2976,7 @@
 		)
 		(uuid "2717f0a4-4ac6-4d02-a2e4-d479b65b6fc3")
 	)
-	(label "CAN_L_FILT"
-		(at 99.06 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d03fa66-4b46-4a04-b397-5a64efc8dfe3")
-	)
-	(label "CAN_H_FILT"
+	(label "CAN_H"
 		(at 74.93 39.37 0)
 		(effects
 			(font
@@ -3068,7 +3026,7 @@
 		)
 		(uuid "6302b30b-7afd-47b7-8422-853c81e47b60")
 	)
-	(label "CAN_L_FILT"
+	(label "CAN_L"
 		(at 74.93 41.91 0)
 		(effects
 			(font
@@ -3147,16 +3105,6 @@
 			(justify right bottom)
 		)
 		(uuid "af08dfe7-646a-4630-9074-1bb9bfa14b35")
-	)
-	(label "CAN_H_FILT"
-		(at 99.0339 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0d66e58-f499-4622-9b92-e84ff01a46e5")
 	)
 	(label "CAN_H"
 		(at 93.98 78.74 180)
