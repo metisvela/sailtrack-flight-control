@@ -6174,7 +6174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "65"
+		(property "Value" "150"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -7943,7 +7943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "65"
+		(property "Value" "150"
 			(at 135.89 132.08 0)
 			(effects
 				(font
@@ -8077,7 +8077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "350"
 			(at 124.46 132.08 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "65"
+		(property "Value" "150"
 			(at 92.71 119.38 0)
 			(effects
 				(font
