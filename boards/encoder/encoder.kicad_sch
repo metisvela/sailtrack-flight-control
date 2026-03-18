@@ -4833,7 +4833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "PWR"
 			(at 125.73 123.5074 90)
 			(effects
 				(font
@@ -5401,7 +5401,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "3v3"
 			(at 137.16 123.5074 90)
 			(effects
 				(font
