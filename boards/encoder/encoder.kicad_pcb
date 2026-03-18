@@ -13723,7 +13723,8 @@
 			(at 0 4.7 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "230cbc0c-5af0-446f-b819-6e5a1627eef3")
+			(hide yes)
+			(uuid "e20829a2-87e4-48ec-9e15-30090874b317")
 			(effects
 				(font
 					(size 1 1)
@@ -13736,7 +13737,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "dea58ea8-ddc1-4fc0-8100-b78f944704b0")
+			(uuid "d5fc685c-acaa-46c0-b6d0-34beb12045d7")
 			(effects
 				(font
 					(size 1 1)
@@ -13749,7 +13750,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0218428a-f3eb-42dd-88c1-d52b9e163dfa")
+			(uuid "4e065f75-cadf-4d48-b653-6fd40f512289")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13762,7 +13763,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dfec8eef-acc6-48b9-b602-2e043aceb617")
+			(uuid "8b72ac8c-ec99-40af-b9da-f3ced6d0aada")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14316,6 +14317,19 @@
 				(justify mirror)
 			)
 		)
+		(fp_text user "CAN TERM"
+			(at 0 4.7 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "cdb779cb-921a-4beb-b810-f1c82faec638")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(fp_text user "*"
 			(at -4.7625 2.0828 0)
 			(layer "B.Fab")
@@ -14359,19 +14373,6 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "ada92c9f-28e8-421a-9302-1630b4786691")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 4.7 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "cdb779cb-921a-4beb-b810-f1c82faec638")
 			(effects
 				(font
 					(size 1 1)
@@ -15738,7 +15739,7 @@
 		(layer "B.Cu")
 		(uuid "5d418a5b-7a36-4324-a0f4-2132ed345ee4")
 		(at 127.15 68.6 180)
-		(property "Reference" "SW1"
+		(property "Reference" "PWR"
 			(at 7.55 0.1 90)
 			(layer "B.SilkS")
 			(uuid "d963a8e2-2c3b-4452-ad4b-5c8bb3453921")
@@ -15962,7 +15963,7 @@
 		(at 146.5 57.6 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D2"
+		(property "Reference" "3v3"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
 			(uuid "792d62f9-e201-4f88-b3ee-64062088ae18")
@@ -17326,7 +17327,7 @@
 		(layer "B.Cu")
 		(uuid "7ee5c83b-f382-418d-8438-eb38f8b17c51")
 		(at 127.05 58.15)
-		(property "Reference" "SW3"
+		(property "Reference" "RESET"
 			(at -7.55 0.05 270)
 			(layer "B.SilkS")
 			(uuid "f53261c9-1d5a-4237-9034-0274a7abe0f5")
@@ -17976,8 +17977,8 @@
 		(at 157.8 74 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D1"
-			(at 0.3 1.5 270)
+		(property "Reference" "PWR"
+			(at 0 1.5 90)
 			(layer "B.SilkS")
 			(uuid "c7c51c39-ae42-442a-8941-d8cf7e5860ef")
 			(effects
@@ -17989,7 +17990,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -1.43 270)
+			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "45e41d1a-690b-45c6-9909-f6fc4161da82")
 			(effects
@@ -18001,7 +18002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1c1cbd29-aa03-413e-8187-f0b5e2aac97c")
@@ -18014,7 +18015,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "47e8c7f6-387c-4c9c-bc19-e34595586cd4")
@@ -18166,7 +18167,7 @@
 			(uuid "557838db-c6e6-4fcb-b7aa-b4d283942f61")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "e822cb0c-50bd-42d7-b2e0-1e1f3301e8b5")
 			(effects
@@ -19561,7 +19562,7 @@
 		(layer "B.Cu")
 		(uuid "bad3cda0-5fe6-44c4-b722-5164bc7105ad")
 		(at 127.15 64 180)
-		(property "Reference" "SW2"
+		(property "Reference" "BOOT"
 			(at 7.65 0 90)
 			(layer "B.SilkS")
 			(uuid "6b242e8a-3932-4558-9ed1-01ba9b69f4a6")
