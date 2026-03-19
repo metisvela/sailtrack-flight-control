@@ -11253,7 +11253,8 @@
 		(property "Reference" "J6"
 			(at 6.3 0.075 90)
 			(layer "B.SilkS")
-			(uuid "ab849427-d342-41ec-809e-473d4ac907f1")
+			(hide yes)
+			(uuid "fd162bd0-b6bb-4087-bfe7-c342e9a9337a")
 			(effects
 				(font
 					(size 1 1)
@@ -11265,7 +11266,7 @@
 		(property "Value" "PWR"
 			(at 1.25 -4.6 90)
 			(layer "B.Fab")
-			(uuid "80407f74-6c1f-4adf-afd4-49d0cf1530a0")
+			(uuid "6cac2a06-ac0c-4778-af34-4e73d93ac260")
 			(effects
 				(font
 					(size 1 1)
@@ -11278,7 +11279,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8b623b6d-3b1d-46fa-bfd1-037bdccb821e")
+			(uuid "73f0bf92-768a-4ad4-b225-460910d87970")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +11292,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e4b518a7-4056-403e-b63a-a4a6c60b4a98")
+			(uuid "eeeb88ed-f059-4816-acac-f9487bcf93d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14460,9 +14461,10 @@
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J5"
-			(at -2.15 3.975 180)
+			(at -2.15 3.975 0)
 			(layer "B.SilkS")
-			(uuid "05694163-5549-4925-9fd7-c7111f44edff")
+			(hide yes)
+			(uuid "00bd1626-fc5f-4d85-8d4a-29d14d4551e4")
 			(effects
 				(font
 					(size 1 1)
@@ -14474,7 +14476,7 @@
 		(property "Value" "RS485"
 			(at 3.75 -4.6 90)
 			(layer "B.Fab")
-			(uuid "285e605a-6807-4e0d-84fb-4b9c10614017")
+			(uuid "1cbdf643-6ff7-4b78-a628-620ded321292")
 			(effects
 				(font
 					(size 1 1)
@@ -14487,7 +14489,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ec23edb6-e706-4554-9bec-55508db8991d")
+			(uuid "48d3eacc-9a1e-4cab-a749-50e6287d3b2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14500,10 +14502,24 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9961dd1f-9a67-4429-80e9-bcb83a1ee054")
+			(uuid "45081ae4-1f38-49ec-95cf-9251e5de87e0")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" "CHAN-1"
+			(at -1.225 6.275 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f8218a8c-9f7c-414d-9b86-b2507c05af85")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -22991,8 +23007,32 @@
 		(layer "F.Fab")
 		(uuid "ebd0b7f7-cb42-47b1-b6d8-1be976a53d67")
 	)
+	(gr_text "GND"
+		(at 169.1 105.97675 0)
+		(layer "F.SilkS")
+		(uuid "3fb70f8d-1e28-43d4-b904-8abcd146cb82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "C2+"
+		(at 169.1 88.62675 0)
+		(layer "F.SilkS")
+		(uuid "4639cdb1-118e-4050-8505-7f791a3b3fbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "WayWayWay"
-		(at 162.7 111.475 0)
+		(at 149.7 108.2 0)
 		(layer "F.SilkS")
 		(uuid "4bcd9993-89d3-48b6-adbb-30d6755f0f91")
 		(effects
@@ -23002,6 +23042,90 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "C2-"
+		(at 169.1 91.12675 0)
+		(layer "F.SilkS")
+		(uuid "5398656f-5243-4109-9325-68db985647eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VDD"
+		(at 169.1 108.5 0)
+		(layer "F.SilkS")
+		(uuid "54e66ffb-ed65-4b83-b663-609d0f7cfad4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "L"
+		(at 169.1 97.27675 0)
+		(layer "F.SilkS")
+		(uuid "5980c945-870b-4360-b54c-a61a76fb51db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "C1-"
+		(at 169.1 86.12675 0)
+		(layer "F.SilkS")
+		(uuid "5c105068-4eae-461a-b40e-54a1287bc78a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "C1+"
+		(at 169.1 83.62675 0)
+		(layer "F.SilkS")
+		(uuid "a506a682-0360-432c-a894-254275cda7b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H"
+		(at 169.1 99.77675 0)
+		(layer "F.SilkS")
+		(uuid "a9767c50-d395-483c-8534-1fe0ff3fe82b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VDD"
+		(at 169.628572 112.2 0)
+		(layer "B.SilkS")
+		(uuid "20b8d2ea-d711-4d18-bb21-58b1c0b32fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "GND"
