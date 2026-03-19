@@ -39,14 +39,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -55,6 +55,7 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -66,6 +67,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 1.24)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -77,6 +79,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -88,7 +91,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -96,7 +99,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -19875,10 +19878,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 10.97 -2.885 0)
-			(layer "B.Fab")
-			(uuid "c9eb0dd4-e199-4d2c-8f6c-9325de8143ca")
+		(property "Value" "BOOT"
+			(at 7.65 -0.000001 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "8a5a39ef-9f6b-4454-bf51-5bc3b0db55f9")
 			(effects
 				(font
 					(size 1 1)
@@ -19908,19 +19912,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 7.65 -0.000001 90)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "8a5a39ef-9f6b-4454-bf51-5bc3b0db55f9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
