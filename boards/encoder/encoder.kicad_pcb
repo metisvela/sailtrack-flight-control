@@ -4040,7 +4040,7 @@
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U7"
-			(at 0 -2.6 0)
+			(at 1.6 -2.525 0)
 			(layer "F.SilkS")
 			(uuid "3a2681fa-bf42-4645-a133-78a2031e2bb2")
 			(effects
@@ -12850,6 +12850,7 @@
 		(property "Reference" "J1"
 			(at 3.75 3.55 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1f2ee2d2-6ff9-4ed1-bdf0-412a0e3749ae")
 			(effects
 				(font
@@ -14347,33 +14348,7 @@
 			(layer "B.Fab")
 			(uuid "5c4a9858-3267-418d-80a2-87c963860596")
 		)
-		(fp_text user "ON"
-			(at 5.0165 5.1562 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "467a5cf7-c2de-4c96-bc39-591c5aca9995")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "OFF"
-			(at -5.0165 5.1562 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "75047ae4-c22f-4ba6-af1b-6f0143ed9aaf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "CAN TERM"
+		(fp_text user "CAN-TERM"
 			(at 0 4.7 0)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -15329,6 +15304,7 @@
 		(property "Reference" "J2"
 			(at 9.4 3.675 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a5e9b505-1157-4f07-89ba-700a848fd103")
 			(effects
 				(font
@@ -16002,6 +15978,7 @@
 		(property "Reference" "SW1"
 			(at 7.55 0.1 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d963a8e2-2c3b-4452-ad4b-5c8bb3453921")
 			(effects
 				(font
@@ -16044,6 +16021,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" "PWR"
+			(at 7.65 -0.000001 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "e92635db-c5ba-40b8-85f0-16299b1a0ede")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -17592,6 +17582,7 @@
 		(property "Reference" "SW3"
 			(at -7.55 0.05 270)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f53261c9-1d5a-4237-9034-0274a7abe0f5")
 			(effects
 				(font
@@ -17634,6 +17625,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" "RESET"
+			(at -7.55 0 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "26358822-9494-4be9-9cce-a0379b9a89d3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19861,6 +19865,7 @@
 		(property "Reference" "SW2"
 			(at 7.65 0 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6b242e8a-3932-4558-9ed1-01ba9b69f4a6")
 			(effects
 				(font
@@ -19903,6 +19908,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 7.65 -0.000001 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "8a5a39ef-9f6b-4454-bf51-5bc3b0db55f9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -21639,7 +21657,7 @@
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J3"
-			(at 3.75 3.55 0)
+			(at 7.6 3.6 0)
 			(layer "B.SilkS")
 			(uuid "49f229a7-44db-4df2-a4f4-4121348c2b9d")
 			(effects
@@ -22995,6 +23013,78 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 134.3 112.4 0)
+		(layer "B.SilkS")
+		(uuid "3818977a-5ff2-44a0-9046-6d1b994080de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 147.9 112.5 0)
+		(layer "B.SilkS")
+		(uuid "4b67be5c-3aff-4cd1-9c1b-32108f3f2167")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "IO\n"
+		(at 136.335317 112.4 0)
+		(layer "B.SilkS")
+		(uuid "54137b05-dfcf-481c-a3f8-b37daaf35e8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "VDD"
+		(at 156.625 112.5 0)
+		(layer "B.SilkS")
+		(uuid "60dc050d-3557-463c-a82e-f8d35a059791")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "CLK"
+		(at 139.656349 112.4 0)
+		(layer "B.SilkS")
+		(uuid "76f430a0-46a4-407b-8a6c-6f7563e7dcd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "VDD"
+		(at 143.025 112.4 0)
+		(layer "B.SilkS")
+		(uuid "99c84466-7adc-491b-9749-51f7e87cd62c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "WANDA r1.0\n"
 		(at 139.7 109.757357 0)
 		(layer "B.SilkS")
@@ -23004,6 +23094,42 @@
 				(size 1 1)
 				(thickness 0.25)
 				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RX"
+		(at 150.586111 112.5 0)
+		(layer "B.SilkS")
+		(uuid "c47f6ccf-5401-4755-ba0c-87bc861f2c3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TX"
+		(at 153.034127 112.5 0)
+		(layer "B.SilkS")
+		(uuid "e8af64c8-3c97-46e7-9ef1-0ebd5ec89526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "3v3"
+		(at 135.158334 88.7 0)
+		(layer "B.SilkS")
+		(uuid "eb77dde8-ba18-4c44-88f8-49a757476b4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
