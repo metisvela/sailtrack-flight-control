@@ -4124,7 +4124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0939eed6-9336-472e-ae7b-13a15649a88f")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 109.22 87.6299 0)
 			(effects
 				(font
@@ -4169,6 +4169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2531a456-8d85-4bfe-aa53-4e1f65b21de0")
 		)
@@ -4184,7 +4193,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4309,6 +4318,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 62.23 146.05 0)
 			(effects
 				(font
@@ -4531,6 +4549,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc0a7c0a-020b-48bb-beed-5b5c2168beaa")
 		)
@@ -4598,6 +4625,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 113.03 146.05 0)
 			(effects
 				(font
@@ -4788,6 +4824,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "052c5c66-7e1d-4ca6-a5b3-eeee200aa560")
 		)
@@ -4938,6 +4983,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 149.86 92.71 0)
 			(effects
 				(font
@@ -5268,7 +5322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "334989bf-3b1c-48d1-9599-946f60a68bb8")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 109.22 97.7899 0)
 			(effects
 				(font
@@ -5313,6 +5367,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d823986-22c5-4de7-962d-27e88d9a9989")
 		)
@@ -5328,7 +5391,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5417,6 +5480,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 76.2 146.05 0)
 			(effects
 				(font
@@ -5584,6 +5656,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 90.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b9627d-99a1-48bb-a655-dda9444b56e2")
 		)
@@ -5615,7 +5696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e4a20f8-0591-4863-9036-ea69ac1ec505")
-		(property "Reference" "R22"
+		(property "Reference" "R20"
 			(at 64.77 100.33 90)
 			(effects
 				(font
@@ -5658,6 +5739,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 64.77 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f86ad084-e5b5-42e3-8cb0-e4242b3364dd")
 		)
@@ -5673,7 +5763,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R22")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5836,6 +5926,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 109.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "0d9060d9-c129-4d50-a4a7-fb21969d5cc3")
 		)
@@ -5888,7 +5987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c6d2703-529a-47e2-8b87-526cf652ed4f")
-		(property "Reference" "R21"
+		(property "Reference" "R19"
 			(at 119.38 105.41 90)
 			(effects
 				(font
@@ -5931,6 +6030,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 119.38 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "382ddf2e-e6f7-4a2e-984c-f6d30e7b12bf")
 		)
@@ -5946,7 +6054,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6071,6 +6179,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 45.72 0)
 			(effects
 				(font
@@ -6299,6 +6416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "face49b2-7f0b-4163-a7b0-48cd9b47a538")
 		)
@@ -6330,7 +6456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db734bb-a4fc-4977-8913-f60c9a630b0a")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 135.89 86.36 90)
 			(effects
 				(font
@@ -6373,6 +6499,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 135.89 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cc3f589-dda6-41f7-98d1-d82fe785a371")
 		)
@@ -6388,7 +6523,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6513,6 +6648,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -6696,7 +6840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cfc78e4-2e2d-4ab6-8ca0-e7de8d30fda0")
-		(property "Reference" "R14"
+		(property "Reference" "RG1"
 			(at 130.81 39.3699 0)
 			(effects
 				(font
@@ -6741,6 +6885,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 128.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36b5af86-4b4a-4bdc-88c5-497a9d03fc9a")
 		)
@@ -6756,7 +6909,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R14")
+					(reference "RG1")
 					(unit 1)
 				)
 			)
@@ -6844,7 +6997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2fe018d-72b8-46d0-a718-a8ead52d597f")
-		(property "Reference" "R15"
+		(property "Reference" "RG2"
 			(at 184.15 39.3699 0)
 			(effects
 				(font
@@ -6889,6 +7042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02e8b2dc-29cd-4bfa-86e4-608339710fa1")
 		)
@@ -6904,7 +7066,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R15")
+					(reference "RG2")
 					(unit 1)
 				)
 			)
@@ -6992,7 +7154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a6bc73-bee2-496f-a252-b680bea1f8c2")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 207.01 91.4399 0)
 			(effects
 				(font
@@ -7037,6 +7199,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a894597e-2053-4065-b04c-f48d2b7ac133")
 		)
@@ -7046,7 +7217,7 @@
 		(instances
 			(project ""
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7394,6 +7565,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 212.09 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5422f847-8cad-4231-8115-3f6da5102a94")
 		)
@@ -7456,6 +7636,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 45.72 40.64 0)
 			(effects
 				(font
@@ -7707,6 +7896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 39.37 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ba6a90d-a28b-42f8-9891-2c214a45ca92")
 		)
@@ -7778,6 +7976,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 228.6 45.72 0)
 			(effects
 				(font
@@ -8108,6 +8315,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 162.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "478f3e74-e234-434f-a888-5caed1235f22")
 		)
@@ -8311,6 +8527,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7d5c536b-658d-4358-89ac-de064bc1c7f5")
 		)
@@ -8354,7 +8579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaab3666-6c26-4084-aa45-d97839493599")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 33.02 80.01 90)
 			(effects
 				(font
@@ -8362,7 +8587,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 33.02 82.55 90)
 			(effects
 				(font
@@ -8397,6 +8622,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 33.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a78db93d-32c6-4037-bb53-467e1c32f154")
 		)
@@ -8412,7 +8646,7 @@
 			)
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/763a463a-636e-4b92-a93e-dd97da54b348"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8465,6 +8699,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -8540,6 +8783,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 101.6 146.05 0)
 			(effects
 				(font

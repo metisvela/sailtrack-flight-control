@@ -2184,7 +2184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e78e163-c1d2-4518-b765-287615a3b4a8")
-		(property "Reference" "R29"
+		(property "Reference" "R27"
 			(at 45.72 35.5599 0)
 			(effects
 				(font
@@ -2193,7 +2193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "455k"
+		(property "Value" "453k"
 			(at 45.466 38.354 0)
 			(effects
 				(font
@@ -2229,6 +2229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cde83e70-b859-489f-b549-5587b8248dc9")
 		)
@@ -2238,7 +2247,7 @@
 		(instances
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/4eebcdb7-98fa-4c4e-819b-5b04763be839"
-					(reference "R29")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2291,6 +2300,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 53.34 36.83 0)
 			(effects
 				(font
@@ -2369,6 +2387,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed6d5e78-f065-45b6-96de-0017c644b38c")
 		)
@@ -2430,6 +2457,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 26.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 26.67 99.06 0)
 			(effects
 				(font
@@ -2517,6 +2553,15 @@
 		)
 		(property "Sim.Pins" "1=+ 2=-"
 			(at 36.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 36.83 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,6 +2903,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 26.67 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a63f3329-343e-4e99-8f3e-c4c07e001768")
 		)
@@ -2986,6 +3040,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.18 46.99 0)
 			(effects
 				(font
@@ -3132,6 +3195,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 33.02 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f82d998-05dc-4073-ae76-b4eae9f387c2")
 		)
@@ -3240,7 +3312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 53.0352 102.87 0)
 			(effects
 				(font
@@ -3259,6 +3331,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 52.07 99.06 0)
 			(effects
 				(font
@@ -3535,6 +3616,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "bdf21975-5f1b-43f6-9907-85471a028a34")
 		)
@@ -3572,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c85cbd10-29c0-4eca-83ee-8698d4646aff")
-		(property "Reference" "R30"
+		(property "Reference" "R28"
 			(at 45.72 54.6099 0)
 			(effects
 				(font
@@ -3581,7 +3671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "95k"
+		(property "Value" "95.3k"
 			(at 45.72 57.1499 0)
 			(effects
 				(font
@@ -3617,6 +3707,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2159086c-b24d-4384-9f86-e8c85420072c")
 		)
@@ -3626,7 +3725,7 @@
 		(instances
 			(project "encoder"
 				(path "/710faa81-ee23-422b-ba7e-b655a364ab6f/4eebcdb7-98fa-4c4e-819b-5b04763be839"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3810,6 +3909,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 39.37 99.06 0)
 			(effects
 				(font

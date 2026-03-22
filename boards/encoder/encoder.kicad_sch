@@ -4733,6 +4733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 38.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be8ef4f8-a423-419d-b868-8991e90edb1c")
 		)
@@ -4878,6 +4887,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 121.92 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53535271-4e40-4cea-969e-35d47da4b830")
 		)
@@ -4940,6 +4958,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -5016,6 +5043,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 26.67 176.53 0)
 			(effects
 				(font
@@ -5292,6 +5328,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 43.18 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "121de405-c144-4fa2-b9a4-af0bbcef4089")
 		)
@@ -5354,6 +5399,15 @@
 		)
 		(property "Description" "Dual LED, cathodes on pins 3 and 4"
 			(at 87.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 87.63 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,6 +5500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 133.35 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5901de0f-cf67-4cff-aa91-9b125b2c9b4a")
 		)
@@ -5508,6 +5571,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 207.01 35.56 0)
 			(effects
 				(font
@@ -6074,6 +6146,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d64f1124-ece1-4d88-9c29-d2e97068032c")
 		)
@@ -6210,6 +6291,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 85.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08c0dc1e-7fd8-4ec9-876f-28e68241a646")
 		)
@@ -6337,6 +6427,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -6743,6 +6842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb062d84-93b6-4e32-87e2-418e18d47422")
 		)
@@ -6806,6 +6914,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 66.04 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +7030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20n"
+		(property "Value" "22n"
 			(at 60.96 132.0799 0)
 			(effects
 				(font
@@ -6941,6 +7058,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 57.15 130.81 0)
 			(effects
 				(font
@@ -7150,6 +7276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08c98afa-012c-4e37-bcec-40309d0e9441")
 		)
@@ -7211,6 +7346,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -7355,6 +7499,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e93e4b64-edec-4cd4-97e9-65f656a5d7ed")
 		)
@@ -7423,6 +7576,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 39.37 176.53 0)
 			(effects
 				(font
@@ -7633,6 +7795,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f264e03f-1d7d-4548-8e0e-14589e3c49f9")
 		)
@@ -7705,6 +7876,15 @@
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 26.67 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,6 +8159,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90fefcb6-b725-4434-8936-5799a2ab56e6")
 		)
@@ -8113,6 +8302,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34fd79e1-643e-4c22-ba8d-f3ef1be55fda")
 		)
@@ -8176,6 +8374,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 214.63 142.24 0)
 			(effects
 				(font
@@ -8383,6 +8590,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8d45435-c9e2-4227-9bca-affe123d31c4")
 		)
@@ -8519,6 +8735,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c038eec-446c-4a7b-8470-81b4a4c73bfb")
 		)
@@ -8581,6 +8806,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -8656,6 +8890,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -8801,6 +9044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a19a4369-e097-4fd2-aba3-c6e9ef4f561f")
 		)
@@ -8926,6 +9178,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 196.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 196.85 142.24 0)
 			(effects
 				(font
