@@ -6,8 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Wanda")
-		(rev "0.1")
+		(date "2026-03-28")
+		(rev "1.0")
 		(company "MetisVela")
+		(comment 3 "RS485 is used for high speed data transmission.")
+		(comment 4 "Components necessary to communicate with the MoBo.")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"

@@ -6,9 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Wanda")
-		(rev "0.1")
+		(date "2026-03-28")
+		(rev "1.0")
 		(company "MetisVela")
-		(comment 1 "Contains all the necessary components to read the angle.")
+		(comment 3 "The InstAmp was chosen due to the smallest Gain allowed.")
+		(comment 4 "Contains all the necessary components to read the angle.")
 	)
 	(lib_symbols
 		(symbol "Device:C"
