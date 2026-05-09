@@ -126,7 +126,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -181,7 +180,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "750bbfa0-3d84-43a7-95d4-d2f853df1f3c")
@@ -192,7 +191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -216,10 +215,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22201d24-cbe3-461a-8337-88c2be9c34b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/7b2976ef-832a-43f5-9dc9-ba7053b87f17")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -381,7 +399,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d554df06-ff8c-4909-84d8-175311743900")
@@ -392,7 +410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -416,10 +434,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5be2fc4b-c665-4969-86b4-380fd8b098b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/eaab3666-6c26-4084-aa45-d97839493599")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -592,7 +629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -616,10 +653,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8a600d6-3883-4b54-a4e3-79b771f29e63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/43c654ee-4bdf-432f-b338-99f826469155")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -792,7 +848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -816,10 +872,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "631e19cf-ccb9-4796-a6cf-68f935d231e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/7a21afe6-07a0-4bd2-a93d-b4667aa6b209")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -992,7 +1067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1016,10 +1091,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31a2ca57-0669-43fe-9c0e-c9031a281d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/6671ccce-5991-478d-be82-9a054f89f727")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1193,7 +1287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1217,11 +1311,30 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6abbec5-218e-4a18-a61f-9e884fa85319")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/fc667c16-9b06-4c55-b04e-b442f047709f")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1263,7 +1376,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "329fd0d1-885f-4866-9776-4c1aa5ed175f")
@@ -1298,7 +1411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1322,10 +1435,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7403292-0ca8-499d-88ba-8e3059e87b63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/f29d9021-0452-4ef6-80f1-7cc79d7fd774")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1498,7 +1630,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1522,10 +1654,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7dd2200-8ccc-4465-8b71-adb95231cab7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/35fe6aa3-200d-4609-8d2e-ef197ee51e13")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1699,7 +1850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1723,11 +1874,30 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "253251d7-1ee0-4639-9817-a7bf7d5265cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/f2abf257-ccaf-4060-8630-5bfb77060d16")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1769,7 +1939,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "b8e1d2c6-a7f9-4ec3-9251-7c041d221316")
@@ -1804,7 +1974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1828,10 +1998,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0011e12-4205-40c8-b617-f3ffaa64f1f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/9cfc78e4-2e2d-4ab6-8ca0-e7de8d30fda0")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2004,7 +2193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2028,10 +2217,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c60437bb-c272-40da-b101-bfb60901b311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e0d91943-7cca-40da-8cfa-5464adbca154")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2320,9 +2528,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40a1c6a4-caec-4ec1-b359-f743d6aa19bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/4d25501a-13ad-406a-9910-9a9dbf2bfdac")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "8" "7" "6" "5" "1" "2" "3" "4" "9")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2442,7 +2669,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3.3V")
-			(pinfunction "VCC")
+			(pinfunction "VCC_1")
 			(pintype "passive")
 			(uuid "6b25cb08-6a67-4a47-a0ae-5060adf124b5")
 		)
@@ -2451,7 +2678,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/RS485_RX")
-			(pinfunction "R")
+			(pinfunction "R_2")
 			(pintype "passive")
 			(uuid "8a44554a-dc35-4a81-9c15-36aceb128d3b")
 		)
@@ -2460,7 +2687,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/RS485_TX")
-			(pinfunction "D")
+			(pinfunction "D_3")
 			(pintype "passive")
 			(uuid "94900e16-2342-423a-a070-3748e1c5b4c3")
 		)
@@ -2469,7 +2696,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_4")
 			(pintype "passive")
 			(uuid "a569a42d-d881-4362-afa9-eb07c6756e5d")
 		)
@@ -2478,7 +2705,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Transmission Lines/RS485_2-")
-			(pinfunction "Y")
+			(pinfunction "Y_5")
 			(pintype "passive")
 			(uuid "fd00be43-25c7-4cbc-a9aa-8d4b142c86d4")
 		)
@@ -2487,7 +2714,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Transmission Lines/RS485_2+")
-			(pinfunction "Z")
+			(pinfunction "Z_6")
 			(pintype "passive")
 			(uuid "3fb09578-7958-4aaa-98cf-42dd6289ec30")
 		)
@@ -2496,7 +2723,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Transmission Lines/RS485_1-")
-			(pinfunction "B")
+			(pinfunction "B_7")
 			(pintype "passive")
 			(uuid "dc2dc7b7-7d6c-46e9-93be-437e1188acc5")
 		)
@@ -2505,7 +2732,7 @@
 			(size 0.35 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Transmission Lines/RS485_1+")
-			(pinfunction "A")
+			(pinfunction "A_8")
 			(pintype "passive")
 			(uuid "3cd89d38-3c3e-4f14-bbb2-8ae0df7f8614")
 		)
@@ -2514,7 +2741,7 @@
 			(size 1.3 2.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
-			(pinfunction "EP")
+			(pinfunction "EP_9")
 			(pintype "passive")
 			(uuid "cd8eef58-7635-4cd7-a8fb-95e4adebd613")
 		)
@@ -2559,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2583,10 +2810,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5f504fa-860b-4e65-bff6-979b50f55a0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/a7a6bc73-bee2-496f-a252-b680bea1f8c2")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2759,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2783,10 +3029,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b0cf474-24f9-4e79-bd3e-ce1315ff4b57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/4e4a20f8-0591-4863-9036-ea69ac1ec505")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2983,9 +3248,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4462c965-242d-468b-9bad-f1a2b4eadcda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/bf8d55d7-b378-42ac-a473-6c13a69550af")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "5" "7" "8" "9" "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3176,7 +3460,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Analog/SIN+")
-			(pinfunction "SIN-")
+			(pinfunction "SIN-_1")
 			(pintype "output")
 			(uuid "ddc50539-e083-4699-8f18-8d35ceef81ef")
 		)
@@ -3186,7 +3470,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VREF+")
-			(pinfunction "VSIN")
+			(pinfunction "VSIN_2")
 			(pintype "power_in")
 			(uuid "b9041c86-d0e5-4249-bfde-922b1f437361")
 		)
@@ -3196,7 +3480,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Analog/SIN-")
-			(pinfunction "SIN+")
+			(pinfunction "SIN+_3")
 			(pintype "output")
 			(uuid "37c5e952-1ab1-4404-9675-42a7632b1a6b")
 		)
@@ -3206,7 +3490,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GNDA")
-			(pinfunction "GSIN")
+			(pinfunction "GSIN_4")
 			(pintype "power_out")
 			(uuid "60260e38-0f61-4c40-8a85-e543bb401ace")
 		)
@@ -3216,7 +3500,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Analog/COS+")
-			(pinfunction "COS+")
+			(pinfunction "COS+_5")
 			(pintype "output")
 			(uuid "72035d60-2c54-4ae6-9013-c3eccd08134d")
 		)
@@ -3226,7 +3510,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VREF+")
-			(pinfunction "VCOS")
+			(pinfunction "VCOS_6")
 			(pintype "power_in")
 			(uuid "462c6ed0-708d-4018-8db8-202490c82627")
 		)
@@ -3236,7 +3520,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Analog/COS-")
-			(pinfunction "COS-")
+			(pinfunction "COS-_7")
 			(pintype "output")
 			(uuid "fa5d7810-0372-4a29-a9ff-78ae058a8f3f")
 		)
@@ -3246,7 +3530,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GNDA")
-			(pinfunction "GCOS")
+			(pinfunction "GCOS_8")
 			(pintype "power_out")
 			(uuid "f663655e-bd5b-4902-af16-e819b6bb186e")
 		)
@@ -3256,7 +3540,7 @@
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
 			(net "GNDA")
-			(pinfunction "EP")
+			(pinfunction "EP_9")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "78ef8af7-4dcf-49f0-83bb-a7cdcc38a709")
@@ -3302,7 +3586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3326,10 +3610,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fa6eb9d-ab17-405e-b6f2-725343f8ca78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a4d89ccf-93a2-4660-9233-75094993ea5c")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3502,7 +3805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3526,9 +3829,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "396aaca5-7135-49df-a0ec-c9f93a788748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/bb12405a-8b05-4e6e-a246-710c6de6384b")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3762,7 +4084,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VDDA_EN")
-			(pinfunction "G")
+			(pinfunction "G_1")
 			(pintype "input")
 			(uuid "130316e3-e2b0-4c10-a4aa-b7de929f0a40")
 		)
@@ -3772,7 +4094,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VDD")
-			(pinfunction "S")
+			(pinfunction "S_2")
 			(pintype "passive")
 			(uuid "4e4c9333-f45e-4e73-bde6-bef5e6a1afd8")
 		)
@@ -3782,7 +4104,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VDDA")
-			(pinfunction "D")
+			(pinfunction "D_3")
 			(pintype "passive")
 			(uuid "fda87ac1-c0ae-40f9-8f71-15b493044224")
 		)
@@ -3827,7 +4149,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3851,10 +4173,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2549683f-bb41-4b4e-b7fb-746d355ea132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/334989bf-3b1c-48d1-9599-946f60a68bb8")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4051,9 +4392,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cb09c68-7edf-4bd2-a011-a8245ae9c477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/21235480-caeb-468f-9f5e-66fc23a047cd")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4287,7 +4647,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U7-BN)")
-			(pinfunction "BP")
+			(pinfunction "BP_1")
 			(pintype "passive")
 			(uuid "8bf12bff-3a79-451c-bf54-2df3a86392cf")
 		)
@@ -4297,7 +4657,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VBIAS")
-			(pinfunction "E")
+			(pinfunction "E_2")
 			(pintype "passive")
 			(uuid "6b6b1095-9bf2-4ce2-ada4-676a4360fb4d")
 		)
@@ -4307,7 +4667,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U7-BN)")
-			(pinfunction "BN")
+			(pinfunction "BN_3")
 			(pintype "passive")
 			(uuid "0dbfc869-9e20-4b07-939b-755a83874ebc")
 		)
@@ -4317,7 +4677,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VDDA")
-			(pinfunction "CN")
+			(pinfunction "CN_4")
 			(pintype "passive")
 			(uuid "783021fe-f2f4-45cc-8def-994fe97b41bf")
 		)
@@ -4327,7 +4687,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GNDA")
-			(pinfunction "CP")
+			(pinfunction "CP_5")
 			(pintype "passive")
 			(uuid "7087e127-1681-4659-82d8-a219fcb1ae51")
 		)
@@ -4372,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4396,10 +4756,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c33882a-dbc9-4953-b49f-82938b0e3b95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/6c2ac3b7-4f9b-4e43-8aae-5344c03c358a")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4572,7 +4951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4596,10 +4975,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe5368b2-6e0f-4d0c-975e-d29ce42a2bfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/10ebed64-9796-4385-b2d7-059887024ee7")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4772,7 +5170,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4796,10 +5194,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01ffb860-7b94-4eac-bbea-c92ceae8c747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/5c6d2703-529a-47e2-8b87-526cf652ed4f")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4972,7 +5389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4996,10 +5413,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42a9a562-f822-4fac-bfa0-cbbb2b51c46b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/d0eba5e2-02b3-4241-bc48-17c394f09c2b")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5172,7 +5608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5196,10 +5632,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56e576e6-f21a-463c-9bd4-fae0665e6c38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/6db734bb-a4fc-4977-8913-f60c9a630b0a")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5433,9 +5888,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c43b1602-d352-4e8e-94e5-6177b93227c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/586dbd99-046d-4383-b144-9fa8b3724537")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "6" "7" "9" "8" "2" "3" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -5629,7 +6103,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Analog/SIN-")
-			(pinfunction "-IN")
+			(pinfunction "-IN_1")
 			(pintype "input")
 			(solder_mask_margin 0)
 			(uuid "6abf543c-810f-4544-9665-c820990c9dbe")
@@ -5639,7 +6113,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U4-RGA)")
-			(pinfunction "RGA")
+			(pinfunction "RGA_2")
 			(pintype "passive")
 			(solder_mask_margin 0)
 			(uuid "e9de10a1-e121-4e77-ba4e-a1f4f68ede62")
@@ -5649,7 +6123,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U4-RGB)")
-			(pinfunction "RGB")
+			(pinfunction "RGB_3")
 			(pintype "passive")
 			(solder_mask_margin 0)
 			(uuid "28a43f4b-ad61-4fec-acca-ec9b8a8d28db")
@@ -5659,7 +6133,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Analog/SIN+")
-			(pinfunction "+IN")
+			(pinfunction "+IN_4")
 			(pintype "input")
 			(solder_mask_margin 0)
 			(uuid "1ce729d5-4331-4499-b0c2-b996d267ce74")
@@ -5669,7 +6143,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GNDA")
-			(pinfunction "GND")
+			(pinfunction "GND_5")
 			(pintype "power_in")
 			(solder_mask_margin 0)
 			(uuid "a810bdfd-5835-4bde-9fe0-5bdb9c09929e")
@@ -5679,7 +6153,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/VBIAS")
-			(pinfunction "REF")
+			(pinfunction "REF_6")
 			(pintype "input")
 			(solder_mask_margin 0)
 			(uuid "c47aad4e-6a16-473c-bf38-6405dc5f346e")
@@ -5689,7 +6163,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Analog/SIND")
-			(pinfunction "VOUT")
+			(pinfunction "VOUT_7")
 			(pintype "output")
 			(solder_mask_margin 0)
 			(uuid "021296ac-eca3-415d-a30d-843af6a304af")
@@ -5699,7 +6173,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "VDDA")
-			(pinfunction "VCC")
+			(pinfunction "VCC_8")
 			(pintype "power_in")
 			(solder_mask_margin 0)
 			(uuid "58d4b2ed-5ae4-4a49-b541-e6c85ad97565")
@@ -5709,7 +6183,7 @@
 			(size 1.2 2)
 			(layers "F.Cu")
 			(net "GNDA")
-			(pinfunction "EP")
+			(pinfunction "EP_9")
 			(pintype "power_in")
 			(uuid "d0ca2546-5f84-43c5-9aa8-8964a7cd92a6")
 		)
@@ -5743,7 +6217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5767,10 +6241,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eedf7635-e02e-4ab3-b56f-93b52a74f79c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/14de92ba-9d1c-4626-b6ce-483bd6f91b03")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5943,7 +6436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6021,10 +6514,37 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "554d396f-7b66-4e6b-b7c4-2c8b76aae98b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/ea729863-5e0c-45e5-a942-6cd0ac8d338c")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(clearance 0.2)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -6214,7 +6734,7 @@
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U6A--)")
-			(pinfunction "-")
+			(pinfunction "-_2")
 			(pintype "input")
 			(uuid "bb49e2f8-4d96-462e-b34c-8e3732a0171c")
 		)
@@ -6223,7 +6743,7 @@
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U6A-+)")
-			(pinfunction "+")
+			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "ba5fbedd-7e9b-4616-8929-df85f690991f")
 		)
@@ -6232,7 +6752,7 @@
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GNDA")
-			(pinfunction "V-")
+			(pinfunction "V-_4")
 			(pintype "power_in")
 			(uuid "9d91e625-d5ec-40ae-bc8e-b3b3900fd6d3")
 		)
@@ -6241,7 +6761,7 @@
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U6B-+)")
-			(pinfunction "+")
+			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "cf0c8ece-e106-44b1-9f57-6d80c83e3cc8")
 		)
@@ -6250,7 +6770,7 @@
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U6B--)")
-			(pinfunction "-")
+			(pinfunction "-_6")
 			(pintype "input")
 			(uuid "e3f23478-d672-44ec-824c-3f39dded4356")
 		)
@@ -6267,7 +6787,7 @@
 			(size 1.1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "VDDA")
-			(pinfunction "V+")
+			(pinfunction "V+_8")
 			(pintype "power_in")
 			(uuid "d3b8e535-3632-4713-949a-b6e89c59383e")
 		)
@@ -6313,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6337,11 +6857,30 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75fa8a3a-aace-4ac6-a4c4-0bb179a52c61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d71cde8b-e3a8-4495-b3a8-3d39573c0012")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6383,7 +6922,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "input")
 			(zone_connect 2)
 			(uuid "92c91cad-2c4e-454b-aa64-16f79337302a")
@@ -6418,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6442,10 +6981,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "041780a9-0632-49d0-9ec9-b9f1cb00f6e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/0939eed6-9336-472e-ae7b-13a15649a88f")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6618,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6642,10 +7200,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "714cce62-ffd5-4f5a-9d84-bb2b6ea68d63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/0a7666a8-3c11-403f-9711-540e4fcfa610")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6807,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6831,10 +7408,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55168121-e20e-4b8f-85c8-03020c3c43de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/d26da9de-35aa-4198-a15b-b7f7407c6ad8")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7007,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7031,9 +7627,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7f1683e-171d-42d6-9738-1fea2c11f440")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/87473e87-bd76-49eb-8bf7-777f8956522c")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7267,7 +7882,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Transmission Lines/RS485_1-")
-			(pinfunction "A1")
+			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "3ad4687e-2a8b-4c70-836a-eb35371b10fa")
 		)
@@ -7277,7 +7892,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Transmission Lines/RS485_1+")
-			(pinfunction "A2")
+			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "8acbf8ff-27dd-4bb7-9276-194c97d65163")
 		)
@@ -7287,7 +7902,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "common")
+			(pinfunction "common_3")
 			(pintype "passive")
 			(uuid "24d7cab1-3141-4942-9337-8da65e9ebb16")
 		)
@@ -7356,10 +7971,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba772129-f957-45c2-b6e4-726ada6bc55c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/c911a935-ba67-4a46-8587-9a9f17478bfb")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7593,7 +8227,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U6B-+)")
-			(pinfunction "REF")
+			(pinfunction "REF_1")
 			(pintype "passive")
 			(uuid "2e1759a2-6cbe-4c7d-9b43-1197e20ee247")
 		)
@@ -7603,7 +8237,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U6B-+)")
-			(pinfunction "K")
+			(pinfunction "K_2")
 			(pintype "passive")
 			(uuid "a5530904-deff-447d-9c5e-65878a145c67")
 		)
@@ -7613,7 +8247,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GNDA")
-			(pinfunction "A")
+			(pinfunction "A_3")
 			(pintype "passive")
 			(uuid "a009fef1-e68b-4729-8f88-39d4557d09e7")
 		)
@@ -7658,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7682,10 +8316,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50a7af1a-f24f-46df-af23-ef72a0da9b69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/7f356bbc-50f8-490c-aa9e-c4beb7f7964e")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7919,9 +8572,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d92c3bf3-6828-476c-91f9-916667b60ee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/db5f9e1f-554a-47df-b149-3f2446c3107b")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "6" "7" "9" "8" "2" "3" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -8115,7 +8787,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Analog/COS-")
-			(pinfunction "-IN")
+			(pinfunction "-IN_1")
 			(pintype "input")
 			(solder_mask_margin 0)
 			(uuid "80cf8a7a-ef77-4a4a-a5a1-1f53074f13c7")
@@ -8125,7 +8797,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U5-RGA)")
-			(pinfunction "RGA")
+			(pinfunction "RGA_2")
 			(pintype "passive")
 			(solder_mask_margin 0)
 			(uuid "83fac9ef-6eaa-486c-83f7-34655092e8f0")
@@ -8135,7 +8807,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U5-RGB)")
-			(pinfunction "RGB")
+			(pinfunction "RGB_3")
 			(pintype "passive")
 			(solder_mask_margin 0)
 			(uuid "9944033f-bdb3-4a66-b614-284f00ef7803")
@@ -8145,7 +8817,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Analog/COS+")
-			(pinfunction "+IN")
+			(pinfunction "+IN_4")
 			(pintype "input")
 			(solder_mask_margin 0)
 			(uuid "5eff9313-b555-48df-a4fd-042fa085e066")
@@ -8155,7 +8827,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GNDA")
-			(pinfunction "GND")
+			(pinfunction "GND_5")
 			(pintype "power_in")
 			(solder_mask_margin 0)
 			(uuid "9a69c7d8-82a9-4b63-89cc-d936d09974db")
@@ -8165,7 +8837,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/VBIAS")
-			(pinfunction "REF")
+			(pinfunction "REF_6")
 			(pintype "input")
 			(solder_mask_margin 0)
 			(uuid "8cb4a370-4415-4ee0-91ad-6b4279795d4c")
@@ -8175,7 +8847,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Analog/COSD")
-			(pinfunction "VOUT")
+			(pinfunction "VOUT_7")
 			(pintype "output")
 			(solder_mask_margin 0)
 			(uuid "80dfe5a4-0678-45d7-9c98-fe09a4934148")
@@ -8185,7 +8857,7 @@
 			(size 0.95 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "VDDA")
-			(pinfunction "VCC")
+			(pinfunction "VCC_8")
 			(pintype "power_in")
 			(solder_mask_margin 0)
 			(uuid "3a0c78d2-9d90-48ba-a218-9fcf2b99ee1b")
@@ -8195,7 +8867,7 @@
 			(size 1.2 2)
 			(layers "F.Cu")
 			(net "GNDA")
-			(pinfunction "EP")
+			(pinfunction "EP_9")
 			(pintype "power_in")
 			(uuid "8a5ad40c-3799-4227-9c7c-a1acca60e102")
 		)
@@ -8229,7 +8901,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8253,10 +8925,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4639d547-2b6b-45e0-8304-54d21ead0efa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/106ab482-8468-437c-9d59-009a3d8b6643")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8429,7 +9120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8453,10 +9144,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8991f113-0fd8-47d0-9f23-1df64ce433be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/a2fe018d-72b8-46d0-a718-a8ead52d597f")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8618,7 +9328,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cd2db251-8df5-47c4-961c-f6b97d42f82b")
@@ -8629,7 +9339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8653,10 +9363,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2ac5bca-9da8-4a19-bbce-107118d91561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/6fad413a-14e6-4496-8e46-b5572fa68ba8")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8829,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8853,10 +9582,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d999485-1f75-4ed5-a275-ab8b37a11583")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/763a463a-636e-4b92-a93e-dd97da54b348/f3a8b7ca-e00e-4be6-912f-1df96a35d6e1")
 		(sheetname "/Analog/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9029,7 +9777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9053,10 +9801,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b8ea360-edda-432f-ac26-9a3c6454aa63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a4d294e7-6e6d-42e5-abf6-05b759bdca82")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9218,7 +9985,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8d448481-2b7d-453a-8ac0-bd83d751926d")
@@ -9229,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9253,10 +10020,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b3250df-52f6-4702-9c51-c6adca299918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/9482ad3c-1a13-4155-bda7-79a648a78275")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9429,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9453,9 +10239,28 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa192752-ad50-4229-964e-e88985e9aa27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/6cfb445c-c77a-4430-842b-69a0c0db7f28")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9689,7 +10494,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Transmission Lines/RS485_2-")
-			(pinfunction "A1")
+			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "4202b4d4-eac4-4eca-884f-9535afa50cb1")
 		)
@@ -9699,7 +10504,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Transmission Lines/RS485_2+")
-			(pinfunction "A2")
+			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "db053718-581e-4a8c-9eb5-4da67a01774c")
 		)
@@ -9709,7 +10514,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "common")
+			(pinfunction "common_3")
 			(pintype "passive")
 			(uuid "8e419c8d-304e-4d08-bdbd-6ef9a4a4f628")
 		)
@@ -9778,10 +10583,32 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "154f7758-8152-4790-9a2e-4c97c4dedfa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "RHB0032D-IPC_A RHB0032D-IPC_B RHB0032D-IPC_C RHB0032D-MFG")
 		(path "/390fb99b-f8c1-43db-b008-96560c40f139")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "32" "3" "1" "2" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29"
+					"30" "31" "5" "33"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10168,7 +10995,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED2_OUT")
-			(pinfunction "PA0_FCC_IN")
+			(pinfunction "PA0_FCC_IN_1")
 			(pintype "bidirectional")
 			(uuid "4c0f65f1-cd45-4b20-94e0-7f589cc7360c")
 		)
@@ -10178,7 +11005,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED1_OUT")
-			(pinfunction "PA1")
+			(pinfunction "PA1_2")
 			(pintype "bidirectional")
 			(uuid "20f75ad2-a5ea-458a-8b6b-051aeec0001b")
 		)
@@ -10188,7 +11015,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RESET")
-			(pinfunction "RST_N")
+			(pinfunction "RST_N_3")
 			(pintype "input")
 			(uuid "dddf108b-66b4-4f36-ac0c-655cc07e7250")
 		)
@@ -10198,7 +11025,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3.3V")
-			(pinfunction "VDD")
+			(pinfunction "VDD_4")
 			(pintype "power_in")
 			(uuid "a9949e0b-1764-4e0a-8835-0b862cf67dbc")
 		)
@@ -10208,7 +11035,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "VSS")
+			(pinfunction "VSS_5")
 			(pintype "power_in")
 			(uuid "b15a9d69-a622-4e38-83eb-5e7f095b876e")
 		)
@@ -10218,7 +11045,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ROSC")
-			(pinfunction "PA2_ROSC")
+			(pinfunction "PA2_ROSC_6")
 			(pintype "bidirectional")
 			(uuid "45855e30-b6b0-422f-b9ea-dd9388bf10e4")
 		)
@@ -10228,7 +11055,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/I2C_SDA")
-			(pinfunction "PA3_LFXIN")
+			(pinfunction "PA3_LFXIN_7")
 			(pintype "bidirectional")
 			(uuid "23575fac-903b-4bf8-aef7-5935e9a66d27")
 		)
@@ -10238,7 +11065,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/I2C_SCL")
-			(pinfunction "PA4_LFCLK_IN_LFXOUT")
+			(pinfunction "PA4_LFCLK_IN_LFXOUT_8")
 			(pintype "bidirectional")
 			(uuid "931246e6-639d-4551-bb44-728cf7f42314")
 		)
@@ -10248,7 +11075,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ROM_WC")
-			(pinfunction "PA5_HFXIN_FCC_IN")
+			(pinfunction "PA5_HFXIN_FCC_IN_9")
 			(pintype "bidirectional")
 			(uuid "d9507e9f-2240-470a-b196-803da2e82960")
 		)
@@ -10258,7 +11085,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PA6_HFCLK_IN_HFXOUT-Pad10)")
-			(pinfunction "PA6_HFCLK_IN_HFXOUT")
+			(pinfunction "PA6_HFCLK_IN_HFXOUT_10")
 			(pintype "bidirectional+no_connect")
 			(uuid "2d7d45ef-4cd0-4c8d-9830-40a4d4e04bbb")
 		)
@@ -10268,7 +11095,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PA7_CLK_OUT-Pad11)")
-			(pinfunction "PA7_CLK_OUT")
+			(pinfunction "PA7_CLK_OUT_11")
 			(pintype "bidirectional+no_connect")
 			(uuid "e7760ced-1d8f-4257-9e96-2d29eaa12bf6")
 		)
@@ -10278,7 +11105,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RS485_TX")
-			(pinfunction "PA8")
+			(pinfunction "PA8_12")
 			(pintype "bidirectional")
 			(uuid "eee125d7-9fda-45ac-8f7a-4cea0ff43d97")
 		)
@@ -10288,7 +11115,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RS485_RX")
-			(pinfunction "PA9_RTC_OUT_CLK_OUT")
+			(pinfunction "PA9_RTC_OUT_CLK_OUT_13")
 			(pintype "bidirectional")
 			(uuid "716ffa83-d980-4db7-ac01-5fa83159e1e6")
 		)
@@ -10298,7 +11125,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_TX")
-			(pinfunction "PA10_CLK_OUT")
+			(pinfunction "PA10_CLK_OUT_14")
 			(pintype "bidirectional")
 			(uuid "beb5c764-252c-4689-ac41-c1877151d886")
 		)
@@ -10308,7 +11135,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_RX")
-			(pinfunction "PA11")
+			(pinfunction "PA11_15")
 			(pintype "bidirectional")
 			(uuid "26863659-7be6-48b9-aebc-45192dea2691")
 		)
@@ -10318,7 +11145,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PA12_FCC_IN-Pad16)")
-			(pinfunction "PA12_FCC_IN")
+			(pinfunction "PA12_FCC_IN_16")
 			(pintype "bidirectional+no_connect")
 			(uuid "3712389a-24d1-4843-a576-7be34c1c5dcf")
 		)
@@ -10328,7 +11155,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/AY_RX")
-			(pinfunction "PA13")
+			(pinfunction "PA13_17")
 			(pintype "bidirectional")
 			(uuid "0944dab0-0ba8-44e8-8fd1-304bd3399b92")
 		)
@@ -10338,7 +11165,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/AY_TX")
-			(pinfunction "PA14_CLK_OUT_A0_12")
+			(pinfunction "PA14_CLK_OUT_A0_12_18")
 			(pintype "bidirectional")
 			(uuid "056ce1a7-8af8-4978-8d3d-c73e0ff38b95")
 		)
@@ -10348,7 +11175,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VDDA_EN")
-			(pinfunction "PA15_A1_0")
+			(pinfunction "PA15_A1_0_19")
 			(pintype "bidirectional")
 			(uuid "6a892426-b430-4f1f-9558-f403b29ea3b7")
 		)
@@ -10358,7 +11185,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/SIN_IN")
-			(pinfunction "PA16_A1_1_FCC_IN")
+			(pinfunction "PA16_A1_1_FCC_IN_20")
 			(pintype "bidirectional")
 			(uuid "f69da5a1-0418-4e73-a807-53bc770d836c")
 		)
@@ -10368,7 +11195,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VBIAS")
-			(pinfunction "PA17_A1_2")
+			(pinfunction "PA17_A1_2_21")
 			(pintype "bidirectional")
 			(uuid "8e731018-0ce7-4488-a8f7-761a255e1786")
 		)
@@ -10378,7 +11205,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/BOOT")
-			(pinfunction "PA18_A1_3")
+			(pinfunction "PA18_A1_3_22")
 			(pintype "bidirectional")
 			(uuid "259647b2-ac82-4f9d-bee5-14aa1ee1ec67")
 		)
@@ -10388,7 +11215,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/SWDIO")
-			(pinfunction "PA19_SWDIO")
+			(pinfunction "PA19_SWDIO_23")
 			(pintype "bidirectional")
 			(uuid "ff270c54-31e1-406c-a74d-b3d3ad61c007")
 		)
@@ -10398,7 +11225,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/SWCLK")
-			(pinfunction "PA20_SWCLK")
+			(pinfunction "PA20_SWCLK_24")
 			(pintype "bidirectional")
 			(uuid "32f86187-d9eb-4c09-ace9-cfc4d01569a2")
 		)
@@ -10408,7 +11235,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GNDA")
-			(pinfunction "PA21_A1_7_VREF-")
+			(pinfunction "PA21_A1_7_VREF-_25")
 			(pintype "bidirectional")
 			(uuid "d0aef4b9-7db1-4aa6-9d48-605984aac23d")
 		)
@@ -10418,7 +11245,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/COS_IN")
-			(pinfunction "PA22_A0_7")
+			(pinfunction "PA22_A0_7_26")
 			(pintype "bidirectional")
 			(uuid "2460b5bd-0459-466b-a210-7a49451723bd")
 		)
@@ -10428,7 +11255,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VREF+")
-			(pinfunction "PA23_VREF+")
+			(pinfunction "PA23_VREF+_27")
 			(pintype "bidirectional")
 			(uuid "e4894b3e-7df1-4abf-85bd-0968683f84ee")
 		)
@@ -10438,7 +11265,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-PA24_A0_3-Pad28)")
-			(pinfunction "PA24_A0_3")
+			(pinfunction "PA24_A0_3_28")
 			(pintype "bidirectional+no_connect")
 			(uuid "fdd7783f-4680-43e4-a6fa-a849c8a2e580")
 		)
@@ -10448,7 +11275,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/CAN_STB")
-			(pinfunction "PA25_A0_2")
+			(pinfunction "PA25_A0_2_29")
 			(pintype "bidirectional")
 			(uuid "65ffd8cd-0678-4524-867f-397be985c9ea")
 		)
@@ -10458,7 +11285,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/CAN_TX")
-			(pinfunction "PA26_A0_1")
+			(pinfunction "PA26_A0_1_30")
 			(pintype "bidirectional")
 			(uuid "fe0148d3-e014-41d7-846c-823dc4a18aed")
 		)
@@ -10468,7 +11295,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/CAN_RX")
-			(pinfunction "PA27_RTC_OUT_A0_0")
+			(pinfunction "PA27_RTC_OUT_A0_0_31")
 			(pintype "bidirectional")
 			(uuid "853821e2-7b70-4101-9c8c-517383d7e9e0")
 		)
@@ -10478,7 +11305,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VCORE")
-			(pinfunction "VCORE")
+			(pinfunction "VCORE_32")
 			(pintype "power_in")
 			(uuid "d2d2d4f7-4ee1-482f-8c2b-4c6221631597")
 		)
@@ -10490,7 +11317,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "269350ac-9e26-488f-9c88-94c444cf952d")
 		)
@@ -10502,7 +11329,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "4d3fd586-69b0-48b1-b5d0-142c3dd1898d")
 		)
@@ -10514,7 +11341,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "7fc7a6dc-ea1e-4f28-bd41-e0da5fa51974")
 		)
@@ -10526,7 +11353,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "b1fbf753-689c-421b-bf75-99d84dcdb96a")
 		)
@@ -10538,7 +11365,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "07a1315e-5df6-446f-a232-5a1935366e43")
 		)
@@ -10548,7 +11375,7 @@
 			(property pad_prop_heatsink)
 			(layers "B.Cu")
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(zone_connect 2)
 			(uuid "1f76afa9-6290-47e4-a709-f17025c8fb5a")
@@ -10559,7 +11386,7 @@
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(zone_connect 2)
 			(uuid "7a6831c5-564c-4c50-887a-5bc49dd4e384")
@@ -10572,7 +11399,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "9121651b-b6a7-4433-8a9a-2eaeb8128866")
 		)
@@ -10584,7 +11411,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "27fdcdc3-33c0-45b2-a5db-dd0f808c1493")
 		)
@@ -10596,7 +11423,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "56809710-b27c-4330-8fb4-24f4938955f5")
 		)
@@ -10608,7 +11435,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Thermal_pad")
+			(pinfunction "Thermal_pad_33")
 			(pintype "power_in")
 			(uuid "0e269a13-7ba3-4c5d-a6e7-17f5172a6ef7")
 		)
@@ -10642,7 +11469,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c932c20c-28ce-4a5f-8679-22efaebf40d4")
@@ -10653,7 +11480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10677,10 +11504,29 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "381093bf-1350-463e-ac0b-33645b2cb271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/ab6ac82d-c543-4699-a5e4-ffaeae419f47")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10855,7 +11701,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -10881,10 +11727,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f5b29515-b130-4ad2-87c6-c7a2ac9c81b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/a4ac5f38-5896-4495-a0bb-b7fa1d1039d1")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11048,7 +11914,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "261"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "c1c0f0c9-0c4b-4be9-811f-1b63f3cace41")
@@ -11060,7 +11926,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -11086,10 +11952,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a77c5b7-7f74-49a4-b7d0-d80b616efb62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6812eff4-30ae-4747-883e-20d7d1323f74")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11266,7 +12152,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -11292,10 +12178,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0d6320fd-5aa9-4b85-bd19-6e133d03a428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/25447e31-b57f-43c5-8e9d-56ed865004ab")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11658,7 +12564,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "power_out")
 			(uuid "f2736d3d-e0ba-41fa-80fd-2286cfb8460a")
 		)
@@ -11669,7 +12575,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J6-Pin_2)")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "power_in")
 			(uuid "075ac02b-d57a-4ca7-a3b8-327a0aba8b38")
 		)
@@ -11692,7 +12598,7 @@
 		(at 163.3 115.1)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at -2.7 0.1 0)
 			(layer "B.SilkS")
 			(uuid "fcb91fa0-2faa-4e11-bcea-ce0fedf07fed")
@@ -11704,7 +12610,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "348"
+		(property "Value" "590"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "128e385f-532e-4aa1-a7f1-2ddd0d968cbc")
@@ -11716,7 +12622,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -11742,10 +12648,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e046754-9750-4f2c-b784-f9bb269abd72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d21578e8-a60f-47db-8679-c91e59d84409")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11948,6 +12874,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd3960a6-bb8f-4ddb-9a97-0e4ee7159b00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "UFDFPN5_1P7X1P4_STM UFDFPN5_1P7X1P4_STM-M UFDFPN5_1P7X1P4_STM-L")
 		(path "/bdafe629-aab5-4d99-bfaa-460ba3008244")
 		(sheetname "/")
@@ -11996,68 +12936,8 @@
 			(uuid "dcbf646d-3f0e-4d50-8fed-804666827075")
 		)
 		(fp_line
-			(start 1.1557 1.0033)
-			(end 1.1557 0.7683)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "564f4f47-b971-401d-b650-dee8afeb7375")
-		)
-		(fp_line
-			(start -1.1557 0.7683)
-			(end -1.1557 1.0033)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "4a4b0f63-fdcc-4c6c-9205-39e76a16f1b0")
-		)
-		(fp_line
-			(start -1.1557 0.7683)
-			(end -1.1557 0.7683)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "65934929-d5d0-47af-bdd1-bec5057e42ae")
-		)
-		(fp_line
-			(start 1.1557 0.7683)
-			(end 1.1557 0.7683)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d368fd43-2abd-43f5-a1e0-f67715ad0973")
-		)
-		(fp_line
-			(start 1.1557 0.7683)
-			(end 1.1557 -0.7683)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d1a74417-127f-44a2-9dbe-80a6f3ccfd94")
-		)
-		(fp_line
-			(start -1.1557 -0.7683)
-			(end -1.1557 0.7683)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "9512349a-0287-4085-a6a6-47d6957dbdcf")
-		)
-		(fp_line
-			(start -1.1557 -0.7683)
-			(end -1.1557 -0.7683)
+			(start 1.1557 1)
+			(end 1.1557 -1)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -12066,34 +12946,14 @@
 			(uuid "c5644b28-ee4b-4856-966c-af306d9d6dbc")
 		)
 		(fp_line
-			(start 1.1557 -0.7683)
-			(end 1.1557 -0.7683)
+			(start -1.1557 -1)
+			(end -1.1557 1)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9db4ad67-473d-4bd5-8188-e1e8e4f65a59")
-		)
-		(fp_line
-			(start 1.1557 -0.7683)
-			(end 1.1557 -1.0033)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c3d52067-5fb6-4c77-a90b-0283bf68fcbf")
-		)
-		(fp_line
-			(start -1.1557 -1.0033)
-			(end -1.1557 -0.7683)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b43687f5-31d1-43f8-8d32-0d61f630da1d")
+			(uuid "564f4f47-b971-401d-b650-dee8afeb7375")
 		)
 		(fp_line
 			(start 1.1557 -1.0033)
@@ -12185,7 +13045,7 @@
 			(size 0.6096 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+3.3V")
-			(pinfunction "VCC")
+			(pinfunction "VCC_1")
 			(pintype "power_in")
 			(uuid "ed777504-ead5-4729-b038-7e8a07cb251d")
 		)
@@ -12194,7 +13054,7 @@
 			(size 1.6002 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
-			(pinfunction "VSS")
+			(pinfunction "VSS_2")
 			(pintype "power_in")
 			(uuid "f3fe4fbf-ce86-49be-9d02-4b1ee1ff2e60")
 		)
@@ -12203,7 +13063,7 @@
 			(size 0.6096 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/I2C_SDA")
-			(pinfunction "SDA")
+			(pinfunction "SDA_3")
 			(pintype "bidirectional")
 			(uuid "d7ad52bd-008b-4e9b-9219-31ca4b519115")
 		)
@@ -12212,7 +13072,7 @@
 			(size 0.6096 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/I2C_SCL")
-			(pinfunction "SCL")
+			(pinfunction "SCL_4")
 			(pintype "input")
 			(uuid "88f079e5-c43d-44d4-8158-8c3674297198")
 		)
@@ -12221,7 +13081,7 @@
 			(size 0.6096 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/ROM_WC")
-			(pinfunction "*WC")
+			(pinfunction "*WC_5")
 			(pintype "input")
 			(uuid "0739969d-fae6-4e97-b825-fc183b508104")
 		)
@@ -12233,7 +13093,7 @@
 		(at 153.3125 94.075)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 2.1875 0 270)
 			(layer "B.SilkS")
 			(uuid "2a478b46-cdc5-4d2d-b6e6-2932ed85cbaf")
@@ -12245,7 +13105,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "261"
 			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "fefd44d6-631a-470c-9872-1cef66ec6059")
@@ -12257,7 +13117,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -12283,10 +13143,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39a4bf63-de4e-4b32-924c-1f44e3f94b8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d1e66d3b-0d7e-4f09-a5b4-1d74688add83")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12462,7 +13342,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12488,10 +13368,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "de5f3a2c-0f68-4bb9-b0ae-f9906ad5f813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/f9f5d76c-7577-415b-b824-f11b331eabb2")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12667,7 +13567,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12693,10 +13593,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "337190e8-a60b-4f9b-bd14-86aa2dae625f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/b4ab118d-5bf1-4a4d-acde-7d09bde4dc32")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12873,7 +13793,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12899,10 +13819,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64d41603-7ba7-41f2-b065-94721bd9eac6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/225b0b54-18c6-4836-a689-c5c94b8a727a")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13265,7 +14205,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "VDD")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "e56a1e72-b01c-4f07-9ba7-18c909c312c5")
 		)
@@ -13276,7 +14216,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/SWCLK")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "33a148f4-6223-4d07-85dc-4a848a25ce3b")
 		)
@@ -13287,7 +14227,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/SWDIO")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "4b46778e-2927-4ac4-9f8a-55d6a9415563")
 		)
@@ -13298,7 +14238,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "fa6dbb8f-528b-407f-8183-5940d1626829")
 		)
@@ -13346,7 +14286,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13399,10 +14339,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d60d8d91-b501-4d86-9457-617c744055ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1a3db279-8583-49cf-b20c-54274b44ad73")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13543,7 +14503,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D1-K)")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "5e736771-2809-4559-ae06-3f6a60715bd2")
 		)
@@ -13553,7 +14513,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "VDD")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "57b00bdc-386f-4e90-af47-aff184069ee6")
 		)
@@ -13588,7 +14548,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "6322ef3a-01db-4036-91b6-1bf1c94ee5f0")
@@ -13600,7 +14560,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13626,10 +14586,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6f54eb19-b357-4eb7-861b-88a4991696ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/4f2e0704-0303-41ae-94d6-fe02f94f015d")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13807,7 +14787,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13833,9 +14813,29 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64f3d102-2aad-43ee-8de1-121a388af62b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/de792371-b1fb-4a26-acb4-6ad9420642b0")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14422,7 +15422,7 @@
 			(size 2.1082 0.6096)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(SW4-3)")
-			(pinfunction "3")
+			(pinfunction "3_1")
 			(pintype "passive")
 			(uuid "1d79c379-00b7-434c-bd78-485080863567")
 		)
@@ -14431,7 +15431,7 @@
 			(size 2.1082 0.6096)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(SW4-1)")
-			(pinfunction "1")
+			(pinfunction "1_2")
 			(pintype "passive")
 			(uuid "708fd02e-1067-4f6e-afb1-c3f77687e2a5")
 		)
@@ -14440,7 +15440,7 @@
 			(size 2.1082 0.6096)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(SW4-2)")
-			(pinfunction "2")
+			(pinfunction "2_3")
 			(pintype "passive")
 			(uuid "72913284-f451-4ca5-af71-4c284d014277")
 		)
@@ -14449,7 +15449,7 @@
 			(size 2.1082 0.6096)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(SW4-2)")
-			(pinfunction "4")
+			(pinfunction "4_4")
 			(pintype "passive")
 			(uuid "bacd3f0f-1170-4c27-ad5a-b1a052d02628")
 		)
@@ -14486,7 +15486,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -14526,10 +15526,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "332562f7-8231-4dfa-8bfb-6899bd77d0ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/584ba84e-c385-49a6-9774-e1c92784544a")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14892,7 +15912,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "/Transmission Lines/RS485_1+")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "fad1770a-3d69-4953-a617-0790e022ef3c")
 		)
@@ -14903,7 +15923,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/Transmission Lines/RS485_1-")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "72ba44ec-4ceb-40a2-a519-81b255ef6622")
 		)
@@ -14914,7 +15934,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/Transmission Lines/RS485_2+")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "7124beaf-b41f-4a54-8c01-66c6646ca492")
 		)
@@ -14925,7 +15945,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/Transmission Lines/RS485_2-")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "2d82df9e-aae8-466d-884f-2cc941f12a6a")
 		)
@@ -14959,7 +15979,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "HT-264USD/UYG-5522"
+		(property "Value" "MCU"
 			(at 0 -0.75 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14972,7 +15992,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15000,10 +16020,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8a7204d-651a-416f-a879-cdbebd099770")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3491958b-b874-495d-894c-8914d5467ebe")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15077,7 +16117,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D3-A1)")
-			(pinfunction "A1")
+			(pinfunction "A1_1")
 			(pintype "input")
 			(uuid "ebb57c22-4ec3-4dc9-a094-6650b3ecb706")
 		)
@@ -15087,7 +16127,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D3-A2)")
-			(pinfunction "A2")
+			(pinfunction "A2_2")
 			(pintype "input")
 			(uuid "fd0efe0b-b5f2-4804-b487-7fa330626988")
 		)
@@ -15097,7 +16137,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED2_OUT")
-			(pinfunction "K1")
+			(pinfunction "K1_3")
 			(pintype "input")
 			(uuid "996f05c9-f981-47e4-bdd1-b800ac8a0b58")
 		)
@@ -15107,7 +16147,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED1_OUT")
-			(pinfunction "K2")
+			(pinfunction "K2_4")
 			(pintype "input")
 			(uuid "46ddab07-20c9-4e38-b7a3-5c2e548a2434")
 		)
@@ -15143,7 +16183,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15169,10 +16209,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b08be658-3818-46f1-9005-53cd3526490a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/2e77df33-9aff-4483-afc4-6aa211329ece")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15349,7 +16409,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15375,10 +16435,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db153b30-85ca-4a92-b2bf-5e1143fb1967")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/eba99e73-3a02-4111-8147-9028a14de6c9")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15741,7 +16821,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "VDD")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "26e5281d-c217-464c-887b-970cc239b71d")
 		)
@@ -15752,7 +16832,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/UART_TX")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "289e1973-892e-4cfe-a390-bea45a198084")
 		)
@@ -15763,7 +16843,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/UART_RX")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "ca0bc936-2471-4e0e-a4a0-e23ec9f52788")
 		)
@@ -15774,7 +16854,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "4a2ed28f-5451-498f-b8f4-22adf784f246")
 		)
@@ -15821,7 +16901,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15847,10 +16927,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc9fe965-14b8-465e-b3dd-2ea92ba114b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b1eb3d76-1d31-444f-b004-549ec6e58f7a")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16025,7 +17125,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16064,9 +17164,29 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d562cd64-1c86-4feb-a140-bb8846ae5497")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/be2b31d0-f7d8-426f-9fac-188859c8808a")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16216,7 +17336,7 @@
 			(size 1.5 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/PWR_EN")
-			(pinfunction "A")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "7c00b63e-a0f6-4336-be3d-8e05388f1c81")
@@ -16226,7 +17346,7 @@
 			(size 1.5 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
-			(pinfunction "B")
+			(pinfunction "B_2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "19b73c8a-d2f4-4020-8798-d70c35f42b56")
@@ -16265,7 +17385,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16305,10 +17425,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e93ca831-4b2e-40bb-855a-58317a7c496f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/366506ec-7cb7-48e1-beb4-e6f2a9bf2a9d")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16449,7 +17589,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D2-K)")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "024da6a9-3442-461f-87e7-9241c3ac360b")
 		)
@@ -16459,7 +17599,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3.3V")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "0e513ab9-7c19-4c71-bec9-b450d4c42a84")
 		)
@@ -16476,14 +17616,14 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-563"
+	(footprint "metis-vela:SOT6_DRL_TEX"
 		(layer "B.Cu")
 		(uuid "73e6d281-00cf-493f-b856-b2e2ab4809de")
 		(at 154.6125 105.035 180)
-		(descr "SOT, 6 Pin (https://www.jedec.org/system/files/docs/MO-293B.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-		(tags "SOT TO_SOT_SMD JEDEC-MO-293-UAAD Texas-DRL-6")
+		(tags "TPS62A02ADRLR ")
 		(property "Reference" "U10"
-			(at 1.8125 0 90)
+			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "2b55968e-4d7d-41c9-8a61-c3ba063dee5c")
 			(effects
@@ -16495,7 +17635,8 @@
 			)
 		)
 		(property "Value" "TPS62A02A"
-			(at 0 -1.65 0)
+			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "cdb80669-8bf6-4ec4-80a6-4d059169c226")
 			(effects
@@ -16532,260 +17673,313 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc9c45a8-2123-404c-b724-c114e609c604")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT6_DRL_TEX SOT6_DRL_TEX-M SOT6_DRL_TEX-L")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/c71180a9-f70f-4d98-8745-f583cd7681d5")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "4" "1" "2" "5" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.71 -0.935)
-			(end -0.71 -0.935)
+			(start 0.7747 0.9779)
+			(end -0.7747 0.9779)
 			(stroke
-				(width 0.12)
+				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.SilkS")
 			(uuid "88711e2d-1674-4b5c-910c-78e8e8da8d11")
 		)
 		(fp_line
-			(start -0.425568 0.935)
-			(end 0.71 0.935)
+			(start -0.7747 -0.9779)
+			(end 0.7747 -0.9779)
 			(stroke
-				(width 0.12)
+				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.SilkS")
 			(uuid "24601a39-6f11-4cd8-92f9-ad557f6bcd77")
 		)
-		(fp_poly
-			(pts
-				(xy -0.72 0.94) (xy -0.86 1.13) (xy -0.58 1.13)
-			)
+		(fp_circle
+			(center -1.706626 0.500126)
+			(end -1.605026 0.500126)
 			(stroke
-				(width 0.12)
+				(width 0.1524)
 				(type solid)
 			)
-			(fill yes)
+			(fill no)
 			(layer "B.SilkS")
-			(uuid "44d8cf7d-ef48-430a-a083-4c0f3b4e3252")
+			(uuid "187d9cfc-bbda-4a01-8bf3-21728a0315b9")
 		)
 		(fp_line
-			(start 1.2 0.83)
-			(end 1.2 -0.83)
+			(start 1.4097 0.868426)
+			(end 1.4097 -0.868426)
 			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8642460d-f672-4d6f-9c67-e69d2077c99b")
-		)
-		(fp_line
-			(start 1.2 -0.83)
-			(end 0.75 -0.83)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "651a5a78-eefe-4f45-9edd-ca974f9d4d42")
-		)
-		(fp_line
-			(start 0.75 0.95)
-			(end 0.75 0.83)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "17ed80ed-28d6-4a7d-a8ec-8484d1d8acc4")
-		)
-		(fp_line
-			(start 0.75 0.83)
-			(end 1.2 0.83)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c1a3ea3f-051d-474c-b551-0beafc1d3c28")
-		)
-		(fp_line
-			(start 0.75 -0.83)
-			(end 0.75 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "67afcc42-fb3f-49cd-bc60-8c703c58c057")
-		)
-		(fp_line
-			(start 0.75 -0.95)
-			(end -0.75 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "816cde86-954a-4a82-9bce-3e48e95b0afa")
-		)
-		(fp_line
-			(start -0.75 0.95)
-			(end 0.75 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "699a43d7-2be1-4cba-8452-015431b0bbc4")
-		)
-		(fp_line
-			(start -0.75 0.83)
-			(end -0.75 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "52814873-c1c6-4619-b093-1cebff0f2808")
-		)
-		(fp_line
-			(start -0.75 -0.83)
-			(end -1.2 -0.83)
-			(stroke
-				(width 0.05)
+				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.CrtYd")
 			(uuid "daf8d525-a694-46ad-83c8-fbb2e8eba6bf")
 		)
 		(fp_line
-			(start -0.75 -0.95)
-			(end -0.75 -0.83)
+			(start 1.4097 0.868426)
+			(end 0.9017 0.868426)
 			(stroke
-				(width 0.05)
+				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.CrtYd")
 			(uuid "a659f54d-f971-47a2-a4e9-7c7e3b234021")
 		)
 		(fp_line
-			(start -1.2 0.83)
-			(end -0.75 0.83)
+			(start 1.4097 -0.868426)
+			(end 0.9017 -0.868426)
 			(stroke
-				(width 0.05)
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "29912d23-677e-4141-8f61-30c0e0fa19d0")
+		)
+		(fp_line
+			(start 0.9017 1.1049)
+			(end 0.9017 0.868426)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "17ed80ed-28d6-4a7d-a8ec-8484d1d8acc4")
+		)
+		(fp_line
+			(start 0.9017 -0.868426)
+			(end 0.9017 -1.1049)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "816cde86-954a-4a82-9bce-3e48e95b0afa")
+		)
+		(fp_line
+			(start 0.9017 -1.1049)
+			(end -0.9017 -1.1049)
+			(stroke
+				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.CrtYd")
 			(uuid "9a8e0140-c33d-4f25-945b-61d65aa793fb")
 		)
 		(fp_line
-			(start -1.2 -0.83)
-			(end -1.2 0.83)
+			(start -0.9017 1.1049)
+			(end 0.9017 1.1049)
 			(stroke
-				(width 0.05)
+				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "29912d23-677e-4141-8f61-30c0e0fa19d0")
+			(uuid "67afcc42-fb3f-49cd-bc60-8c703c58c057")
 		)
-		(fp_poly
-			(pts
-				(xy -0.6 0.5) (xy -0.6 -0.8) (xy 0.6 -0.8) (xy 0.6 0.8) (xy -0.3 0.8)
-			)
+		(fp_line
+			(start -0.9017 0.868426)
+			(end -0.9017 1.1049)
 			(stroke
-				(width 0.1)
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "52814873-c1c6-4619-b093-1cebff0f2808")
+		)
+		(fp_line
+			(start -0.9017 -1.1049)
+			(end -0.9017 -0.868426)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "651a5a78-eefe-4f45-9edd-ca974f9d4d42")
+		)
+		(fp_line
+			(start -1.4097 0.868426)
+			(end -0.9017 0.868426)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8642460d-f672-4d6f-9c67-e69d2077c99b")
+		)
+		(fp_line
+			(start -1.4097 -0.868426)
+			(end -0.9017 -0.868426)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c1a3ea3f-051d-474c-b551-0beafc1d3c28")
+		)
+		(fp_line
+			(start -1.4097 -0.868426)
+			(end -1.4097 0.868426)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "699a43d7-2be1-4cba-8452-015431b0bbc4")
+		)
+		(fp_line
+			(start 0.6477 0.8509)
+			(end -0.6477 0.8509)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5f39518f-59a2-411f-bcf5-8c6b2333e28b")
+		)
+		(fp_line
+			(start 0.6477 -0.8509)
+			(end 0.6477 0.8509)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e255baef-4a21-46b7-a5cc-95b7592d2c9f")
+		)
+		(fp_line
+			(start -0.6477 0.8509)
+			(end -0.6477 -0.8509)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "aeab26ea-70f2-4fe9-b6e4-6af6222aee4e")
+		)
+		(fp_line
+			(start -0.6477 -0.8509)
+			(end 0.6477 -0.8509)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "7687381e-f424-4bf6-a505-674153b39669")
+		)
+		(fp_arc
+			(start -0.3048 0.8509)
+			(mid 0 0.5461)
+			(end 0.3048 0.8509)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "dd879368-d973-4527-b5a9-4335a2b3d95d")
+		)
+		(fp_circle
+			(center -0.4445 0.500126)
+			(end -0.3683 0.500126)
+			(stroke
+				(width 0.0254)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "28a0ebcb-1710-4a91-b3c5-dc2c856b1f56")
+			(uuid "df9c308f-66f3-43a1-9be2-a0949365b63d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "371d016f-1a3f-490e-8439-6378115aeddc")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(pad "1" smd roundrect
-			(at -0.7125 0.5 180)
-			(size 0.675 0.35)
+		(pad "1" smd rect
+			(at -0.8001 0.500126 180)
+			(size 0.7112 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_1")
 			(pintype "power_in")
 			(uuid "3655f5fe-4dd1-4535-b406-eee063a00b4a")
 		)
-		(pad "2" smd roundrect
-			(at -0.7125 0 180)
-			(size 0.675 0.35)
+		(pad "2" smd rect
+			(at -0.8001 0 180)
+			(size 0.7112 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(roundrect_rratio 0.25)
 			(net "/PSU/PWR_SW")
-			(pinfunction "SW")
+			(pinfunction "SW_2")
 			(pintype "power_out")
 			(uuid "1ee05e34-0dfb-4675-9f92-06d40d8956c8")
 		)
-		(pad "3" smd roundrect
-			(at -0.7125 -0.5 180)
-			(size 0.675 0.35)
+		(pad "3" smd rect
+			(at -0.8001 -0.500126 180)
+			(size 0.7112 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(roundrect_rratio 0.25)
 			(net "VDD")
-			(pinfunction "VIN")
+			(pinfunction "VIN_3")
 			(pintype "power_in")
 			(uuid "cf1e9ef3-e084-4c2c-87e5-600cd5ca7cc1")
 		)
-		(pad "4" smd roundrect
-			(at 0.7125 -0.5 180)
-			(size 0.675 0.35)
+		(pad "4" smd rect
+			(at 0.8001 -0.500126 180)
+			(size 0.7112 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(roundrect_rratio 0.25)
 			(net "/PWR_EN")
-			(pinfunction "EN")
+			(pinfunction "EN_4")
 			(pintype "input")
 			(uuid "447190c8-ba19-4415-a4ef-0ac33e7ea875")
 		)
-		(pad "5" smd roundrect
-			(at 0.7125 0 180)
-			(size 0.675 0.35)
+		(pad "5" smd rect
+			(at 0.8001 0 180)
+			(size 0.7112 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(roundrect_rratio 0.25)
 			(net "/PSU/PWR_FB")
-			(pinfunction "FB")
+			(pinfunction "FB_5")
 			(pintype "input")
 			(uuid "96955807-f24a-48c0-a9d3-c88838575626")
 		)
-		(pad "6" smd roundrect
-			(at 0.7125 0.5 180)
-			(size 0.675 0.35)
+		(pad "6" smd rect
+			(at 0.8001 0.500126 180)
+			(size 0.7112 0.2286)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(roundrect_rratio 0.25)
 			(net "/RESET")
-			(pinfunction "PG")
+			(pinfunction "PG_6")
 			(pintype "open_collector")
 			(uuid "1b3524bf-20ff-4786-b358-2e69725e2e25")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
@@ -16817,7 +18011,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16843,10 +18037,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04c9383a-9d2b-4d7c-8c0f-e1325759a598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/23dd82b3-613a-43bd-bd97-7d2382adf4e3")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17010,7 +18224,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "76947323-0fcc-4462-9490-82e881aa4db4")
@@ -17022,7 +18236,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17048,10 +18262,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d8e5873-8d0d-4d99-a567-42d7775de602")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/6705c642-b2a5-4dd6-b899-a736a034f870")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17227,7 +18461,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17253,10 +18487,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e4de5c0-c1be-46c3-b21c-826701d1eca4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/0e78e163-c1d2-4518-b765-287615a3b4a8")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17432,7 +18686,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17458,10 +18712,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3378a507-a500-47f1-a9ad-bc28e3e8efd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51abd26-6923-4866-b5d9-04d79688c053")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17636,7 +18910,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -17675,9 +18949,29 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "60e54bf4-902f-4ed0-b30a-ec396f049e9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/820031ab-0b17-47fd-98c4-d3cf57631fff")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17841,7 +19135,7 @@
 			(size 2.1 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/RESET")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "649dafe7-e88c-492f-86ce-2a4508144728")
@@ -17851,7 +19145,7 @@
 			(size 2.1 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "a47471d6-2378-453d-8e6a-9a7704141bf4")
@@ -17888,7 +19182,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17914,10 +19208,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d32f0d5-e52e-4e63-84cf-c66bd0f185e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/c85cbd10-29c0-4eca-83ee-8698d4646aff")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18093,7 +19407,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18119,10 +19433,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "666ed703-3c4d-4990-9c1e-8dbbe688d089")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b68887a-3f82-4687-8bfd-fda0bbd87df2")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18298,7 +19632,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18324,10 +19658,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77015823-3d82-45f3-8026-8e5672685b26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/241f2f54-00f9-45f4-aa00-b578c54ec8af")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18503,7 +19857,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18529,10 +19883,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f9ab25ac-2287-403e-a440-e5aa5d51b617")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/a116f243-0078-4c04-857f-62216a0e5514")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18895,7 +20269,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "/Transmission Lines/CAN_L")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "3f08de8c-1664-4ae4-9e73-ce95a4474cc5")
 		)
@@ -18906,7 +20280,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/Transmission Lines/CAN_H")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "a63a7646-8265-4538-9a0c-0e0e72e85011")
 		)
@@ -18953,7 +20327,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18981,10 +20355,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec328967-eaa6-4dd7-b6a0-8a9fb96adbf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/7bab38f2-4ab1-4537-ae6b-780906eb31ae")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19175,7 +20569,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "A1")
+			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "e8ad7792-a7e5-40a9-aca4-6d3db1da1433")
 		)
@@ -19185,7 +20579,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "VDD")
-			(pinfunction "A2")
+			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "6a1a7f96-c462-49e1-997e-7924468e21f9")
 		)
@@ -19232,7 +20626,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19258,10 +20652,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05e4c2c3-5c79-4b89-841b-b4a19c08eab8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/81cfaf16-9faa-499e-8549-4a73d4b0e092")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19437,7 +20851,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19465,10 +20879,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f10725e-f99a-4a3c-a279-fea00c286465")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/87930c9e-2a29-4e82-bc07-290b0bddc672")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19659,7 +21093,7 @@
 			(size 1.2 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(C19-Pad2)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "6b599576-74a9-49ac-b808-afacd99e951d")
 		)
@@ -19668,7 +21102,7 @@
 			(size 1.5 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/PSU/PWR_FB")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "7611aa85-83a0-439a-81ab-d7e1d2252dbe")
 		)
@@ -19677,7 +21111,7 @@
 			(size 1.2 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(R28-Pad1)")
-			(pinfunction "3")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "596f3c3b-9ccb-4661-b42a-91aa166f4a7b")
 		)
@@ -19712,7 +21146,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "20n"
+		(property "Value" "22n"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "3b24c940-0353-4261-9ee4-a1e3499cfd83")
@@ -19724,7 +21158,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19750,10 +21184,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f13b2aff-8576-445d-a518-9d2dd3ace077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8fbfafe2-5987-44ba-8cdd-0fffba461d5b")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19930,7 +21384,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19969,9 +21423,29 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02e28f97-6efe-4217-a888-f2ca328b37bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/335dcb50-4c3d-4782-8dec-e274362ad319")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20121,7 +21595,7 @@
 			(size 1.5 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/BOOT")
-			(pinfunction "A")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "6a20afcc-ab7e-4be6-80cc-f35a02f2f5bf")
@@ -20131,7 +21605,7 @@
 			(size 1.5 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
-			(pinfunction "B")
+			(pinfunction "B_2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "cd468b97-43c6-4e4d-a761-96c3a70c05b5")
@@ -20168,7 +21642,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -20194,10 +21668,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92e93756-2503-45c3-b81e-26f081fb2556")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/9a598b55-c68e-4cdc-ad31-4f318d049513")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20400,10 +21894,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4319bf1c-9440-49ff-9795-7c4f2c5ca280")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT-23-THIN-8_DDF_TEX SOT-23-THIN-8_DDF_TEX-M SOT-23-THIN-8_DDF_TEX-L")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/87136505-bc0e-4919-8508-3fdae3a0e419")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "1" "4" "8" "3" "7" "6" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20985,7 +22499,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/CAN_TX")
-			(pinfunction "TXD")
+			(pinfunction "TXD_1")
 			(pintype "input")
 			(uuid "86b011be-6711-4e00-9b0b-9effce3a891b")
 		)
@@ -20994,7 +22508,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
-			(pinfunction "GND")
+			(pinfunction "GND_2")
 			(pintype "power_out")
 			(uuid "00d22d94-bfab-474e-9c84-c2de4eaf803f")
 		)
@@ -21003,7 +22517,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "VDD")
-			(pinfunction "VCC")
+			(pinfunction "VCC_3")
 			(pintype "power_in")
 			(uuid "3e494b30-626c-4a70-946e-6ad99358afbc")
 		)
@@ -21012,7 +22526,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/CAN_RX")
-			(pinfunction "RXD")
+			(pinfunction "RXD_4")
 			(pintype "output")
 			(uuid "75bf705f-96b4-42bd-8654-e2cf25e8668b")
 		)
@@ -21021,7 +22535,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+3.3V")
-			(pinfunction "VIO")
+			(pinfunction "VIO_5")
 			(pintype "power_in")
 			(uuid "c6d61f7a-4572-4519-acfa-9a81c0f30cb9")
 		)
@@ -21030,7 +22544,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/Transmission Lines/CAN_L")
-			(pinfunction "CANL")
+			(pinfunction "CANL_6")
 			(pintype "bidirectional")
 			(uuid "210918f7-0c1c-4fd0-b4e2-02e664107eb8")
 		)
@@ -21039,7 +22553,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/Transmission Lines/CAN_H")
-			(pinfunction "CANH")
+			(pinfunction "CANH_7")
 			(pintype "bidirectional")
 			(uuid "4a8f28c9-a520-4054-9343-2a96e30ab689")
 		)
@@ -21048,7 +22562,7 @@
 			(size 1.0033 0.4572)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/CAN_STB")
-			(pinfunction "STB")
+			(pinfunction "STB_8")
 			(pintype "input")
 			(uuid "642f7716-dd50-4620-91d9-b3e0bd510ef7")
 		)
@@ -21084,7 +22598,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21138,10 +22652,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f039dc36-c738-426c-9790-060121a77164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/4eebcdb7-98fa-4c4e-819b-5b04763be839/3e329167-8718-4147-9ba4-74e01d6d96b6")
 		(sheetname "/PSU/")
 		(sheetfile "psu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21262,7 +22796,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.2)
 			(net "/PSU/PWR_SW")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "cf0f94e5-e5d5-4a60-a1ac-5c615f0db756")
 		)
@@ -21272,7 +22806,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.2)
 			(net "+3.3V")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "7b360499-6b38-40c0-b758-ad691e0dfc28")
 		)
@@ -21307,7 +22841,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "261"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "4e37a2ad-740d-4535-925e-6fd8cbe42940")
@@ -21319,7 +22853,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21345,10 +22879,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b6898a8-3a67-4c99-85ef-933095e6353b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd5cc43-c935-498a-92b4-1d99f3f502ad")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21524,7 +23078,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21550,10 +23104,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1fee5f2d-75d2-4405-953a-8acbf11750b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/72cd2b4b-042c-4503-ba77-d70fa238de21")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21729,7 +23303,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -21755,10 +23329,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b623d5b3-ab24-4e92-ac16-239cce1d60de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b0e469bc-ad3f-4d5f-8484-00911a14f966")
 		(sheetname "/")
 		(sheetfile "encoder.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22121,7 +23715,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "+3.3V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "710b1d6b-be70-4937-8aa7-04baf9839ddb")
 		)
@@ -22132,7 +23726,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "01e1734a-6eea-49b3-84f4-ac791f9bf549")
 		)
@@ -22143,7 +23737,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/AY_TX")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "c0074820-102c-4115-b971-e51f94c55156")
 		)
@@ -22154,7 +23748,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/AY_RX")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "f82a7911-296e-42bc-b50f-20fb28c041f9")
 		)
@@ -22201,7 +23795,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22227,9 +23821,29 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c734b0a-1c8d-4a2f-b003-7cbfb0db1d11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/4480019e-4341-4171-8f6e-0cb99a5ff049")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22464,7 +24078,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Transmission Lines/CAN_L")
-			(pinfunction "A1")
+			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "b0fed823-1959-4cb3-865c-9d3d2e9fef25")
 		)
@@ -22474,7 +24088,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Transmission Lines/CAN_H")
-			(pinfunction "A2")
+			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "69ac1b38-1036-474b-9e06-a39bb208a72c")
 		)
@@ -22484,7 +24098,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "common")
+			(pinfunction "common_3")
 			(pintype "passive")
 			(uuid "8e9acbe1-41b3-473e-9fc5-4433fd3096fa")
 		)
@@ -22531,7 +24145,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22557,10 +24171,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05518eb5-0a27-4529-b4e2-965e623ee425")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/145d269d-3eb2-416f-bbda-416dcab42a1d")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22736,7 +24370,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22762,10 +24396,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "382ff629-201a-447c-a5f0-f1aee5de0e10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d4fde09-a0e3-44c6-b789-9c20af482bf4/ff91516b-26f8-4b0c-87fe-16327270f641")
 		(sheetname "/Transmission Lines/")
 		(sheetfile "transmission.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25101,7 +26755,7 @@
 		(uuid "a53454ba-fd00-4f18-a735-4d31c00bf15d")
 	)
 	(via
-		(at 155.325 104)
+		(at 154.6 104.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -25243,14 +26897,6 @@
 		(uuid "28b6eea4-5681-41cd-920e-a3f0dfd4e699")
 	)
 	(segment
-		(start 155.325 104)
-		(end 155.325 104.535)
-		(width 0.35)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "2ed3fd62-29e6-42db-a7bc-6715343941e2")
-	)
-	(segment
 		(start 164.125 115.1)
 		(end 164.9 115.1)
 		(width 0.5)
@@ -25289,6 +26935,14 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "600d5c55-146d-4f00-abe0-527e663d0646")
+	)
+	(segment
+		(start 155.4126 104.534874)
+		(end 154.934874 104.534874)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "61a2162b-9af4-47cc-8503-5b59b9591f26")
 	)
 	(segment
 		(start 155.6 98.250001)
@@ -25353,6 +27007,14 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "9911e0b2-a937-4f9f-ac98-993748940715")
+	)
+	(segment
+		(start 154.934874 104.534874)
+		(end 154.6 104.2)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "a0dfa67c-47b4-4c83-8ddd-ec7a5f281bad")
 	)
 	(segment
 		(start 127.9 98.475)
@@ -26472,20 +28134,20 @@
 		(uuid "0677f6b3-3da0-4d91-8897-54805c4e635d")
 	)
 	(segment
-		(start 155.325 105.535)
-		(end 155.325 107.085)
-		(width 0.35)
-		(layer "B.Cu")
-		(net "VDD")
-		(uuid "0d669ac2-1c7b-4a1e-8d6e-fb5811c2f4c9")
-	)
-	(segment
 		(start 161.1 109.675)
 		(end 161.1 107.275)
 		(width 1)
 		(layer "B.Cu")
 		(net "VDD")
 		(uuid "0ffbba58-6e91-4236-833e-38ed09106f7b")
+	)
+	(segment
+		(start 155.075 107.335)
+		(end 155.075 106.725)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VDD")
+		(uuid "10a2f2e7-9876-4cc9-9670-1a3415637668")
 	)
 	(segment
 		(start 140.3 108.85)
@@ -26510,14 +28172,6 @@
 		(layer "B.Cu")
 		(net "VDD")
 		(uuid "42ea6e72-c78a-46a4-b185-b94f4f9fe98c")
-	)
-	(segment
-		(start 155.325 107.085)
-		(end 155.075 107.335)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "VDD")
-		(uuid "4a227967-9347-464b-bd84-32ff6164eac4")
 	)
 	(segment
 		(start 139.375 103.65)
@@ -26624,6 +28278,14 @@
 		(uuid "a8e82470-f55d-40c9-9e03-1f0438ac691a")
 	)
 	(segment
+		(start 155.4126 106.3874)
+		(end 155.4126 105.535126)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VDD")
+		(uuid "b5e063db-d94c-4996-b346-59eed3f423f8")
+	)
+	(segment
 		(start 130.3 92.925)
 		(end 133.1 90.125)
 		(width 1)
@@ -26646,6 +28308,14 @@
 		(layer "B.Cu")
 		(net "VDD")
 		(uuid "c12e8a52-2dfe-42e7-9f9c-220547aebc50")
+	)
+	(segment
+		(start 155.075 106.725)
+		(end 155.4126 106.3874)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VDD")
+		(uuid "ca76baaa-8ea2-4bfe-b8f1-274e409baa8e")
 	)
 	(segment
 		(start 161.1 109.675)
@@ -27856,12 +29526,12 @@
 		(uuid "071d026d-cbb6-4704-b182-1729cc85bdfd")
 	)
 	(segment
-		(start 152.4 103.035)
-		(end 152.4 99.223)
+		(start 152.4 99.223)
+		(end 151.976 98.799)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/RESET")
-		(uuid "1362f21d-4d7c-4874-bf15-c2bda536e275")
+		(uuid "13a1f1ef-cbef-41b9-bdae-39c5b1d353c0")
 	)
 	(segment
 		(start 151.976 97.194994)
@@ -27870,6 +29540,14 @@
 		(layer "B.Cu")
 		(net "/RESET")
 		(uuid "2cec3735-12e6-4869-9ffa-e40be0cde423")
+	)
+	(segment
+		(start 152.4 103.5)
+		(end 152.4 99.223)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/RESET")
+		(uuid "3143b633-2208-4f94-b88e-4685ca8825e0")
 	)
 	(segment
 		(start 139.35 93.5)
@@ -27896,6 +29574,22 @@
 		(uuid "722a0cdb-eb09-4c13-a6dc-eb33684e6f49")
 	)
 	(segment
+		(start 153.9 104.535)
+		(end 153.435 104.535)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/RESET")
+		(uuid "76d529a8-d81f-43cc-9938-93e542e6e2de")
+	)
+	(segment
+		(start 153.435 104.535)
+		(end 152.4 103.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/RESET")
+		(uuid "7f6e98ba-89c3-4b8e-9203-6ce89e0e0c3e")
+	)
+	(segment
 		(start 151.976 98.799)
 		(end 151.976 97.194994)
 		(width 0.35)
@@ -27920,28 +29614,12 @@
 		(uuid "958a503a-73ee-4b5e-82e4-a195f580d28a")
 	)
 	(segment
-		(start 152.4 99.223)
-		(end 151.976 98.799)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/RESET")
-		(uuid "99d8e5e2-2e77-4dec-b735-d42c8a481ff5")
-	)
-	(segment
 		(start 141.2 94.375)
 		(end 146 99.175)
 		(width 0.35)
 		(layer "B.Cu")
 		(net "/RESET")
 		(uuid "9b6e78c3-8e62-475c-a17d-0e43e88b095b")
-	)
-	(segment
-		(start 153.9 104.535)
-		(end 152.4 103.035)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/RESET")
-		(uuid "bf3e6828-20f1-4cb4-8358-489ff0ba64e6")
 	)
 	(segment
 		(start 140.225 94.375)
@@ -29375,12 +31053,12 @@
 		(uuid "8c8cdcaf-3e4c-47c8-96d4-876016bd9874")
 	)
 	(segment
-		(start 146 103.475)
-		(end 151.65011 103.475)
+		(start 152.1 103.92489)
+		(end 152.1 104.475)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/PWR_EN")
-		(uuid "016e7e70-1e24-40d4-8ebc-f44cc887b227")
+		(uuid "19a241ab-3163-44a4-9bda-7d8f7269931e")
 	)
 	(segment
 		(start 140.793915 102.05)
@@ -29389,6 +31067,14 @@
 		(layer "B.Cu")
 		(net "/PWR_EN")
 		(uuid "6edca084-a6b1-418b-a066-6e58c015bea2")
+	)
+	(segment
+		(start 153.16 105.535)
+		(end 153.9 105.535)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/PWR_EN")
+		(uuid "7812dbb7-d6e8-4661-bb09-bd1e6f07cb3a")
 	)
 	(segment
 		(start 138.55 103.075)
@@ -29407,12 +31093,28 @@
 		(uuid "92f79ea3-ae21-4d80-8dd5-6fb5657cf0c2")
 	)
 	(segment
-		(start 151.65011 103.475)
-		(end 152.6 104.42489)
+		(start 146 103.475)
+		(end 151.65011 103.475)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/PWR_EN")
-		(uuid "ae369089-aaf8-4ebf-9249-1203d20f88a4")
+		(uuid "b7b5c547-eecd-4803-8bec-740079132c75")
+	)
+	(segment
+		(start 151.65011 103.475)
+		(end 152.1 103.92489)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/PWR_EN")
+		(uuid "c8e1382e-4eac-4215-b247-7a6ced0c365e")
+	)
+	(segment
+		(start 152.1 104.475)
+		(end 153.16 105.535)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/PWR_EN")
+		(uuid "db9735dd-77f9-4b69-a2b6-8fd4bb5faf03")
 	)
 	(segment
 		(start 139.575 102.05)
@@ -29421,30 +31123,6 @@
 		(layer "B.Cu")
 		(net "/PWR_EN")
 		(uuid "eb89a840-e305-4131-b370-8eb65f204be9")
-	)
-	(segment
-		(start 152.6 104.975)
-		(end 153.16 105.535)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/PWR_EN")
-		(uuid "ed56cc9e-0d87-49fd-8606-365e71222298")
-	)
-	(segment
-		(start 153.16 105.535)
-		(end 153.9 105.535)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/PWR_EN")
-		(uuid "edd08e4c-292d-4687-b47c-b958cd04ba39")
-	)
-	(segment
-		(start 152.6 104.42489)
-		(end 152.6 104.975)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/PWR_EN")
-		(uuid "f1751f1f-f15d-431d-8ac2-2296213a68da")
 	)
 	(segment
 		(start 142.675 102.05)

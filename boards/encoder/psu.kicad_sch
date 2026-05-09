@@ -4028,7 +4028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "metis-vela:SOT6_DRL_TEX"
 			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
